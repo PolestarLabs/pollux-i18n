@@ -76,5 +76,5 @@ const translateEngineStart = () => {
 module.exports = {
   translateEngineStart,
   i18n_node,
-  translationsPath: require("path").resolve(__dirname, "./locales"),
+  translationsPath: require("path").join(__dirname, "./locales"),
 };
