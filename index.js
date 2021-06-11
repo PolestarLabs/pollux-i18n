@@ -3,6 +3,7 @@ require("colors");
 const i18next = require("i18next");
 const i18n_backend = require("i18next-node-fs-backend");
 const readdirAsync = require("util").promisify(require("fs").readdir);
+const translationsPath =  require("path").join(__dirname, "locales");
 
 const backendOptions = {
   loadPath: "./locales/{{lng}}/{{ns}}.json",
@@ -28,7 +29,7 @@ const i18n_node = {
 
 const translateEngineStart = () => {
   "Translation Engine Loading!";
-  return readdirAsync("./locales").then((list) => {
+  return readdirAsync( translationsPath ).then((list) => {
     i18next.use(i18n_backend).init(
       {
         backend: backendOptions,
@@ -76,5 +77,5 @@ const translateEngineStart = () => {
 module.exports = {
   translateEngineStart,
   i18n_node,
-  translationsPath: require("path").join(__dirname, "locales"),
+  translationsPath,
 };
