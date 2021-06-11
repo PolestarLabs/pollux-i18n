@@ -1,0 +1,19 @@
+{
+  "name": "pollux-i18n",
+  "version": "1.0.0",
+  "description": "Pollux Translations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolestarLabs/pollux-i18n.git"
+  },
+  "author": "Polestar Labs",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/PolestarLabs/pollux-i18n/issues"
+  },
+  "homepage": "https://github.com/PolestarLabs/pollux-i18n#readme"
+}
