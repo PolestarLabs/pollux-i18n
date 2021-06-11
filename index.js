@@ -3,10 +3,11 @@ require("colors");
 const i18next = require("i18next");
 const i18n_backend = require("i18next-node-fs-backend");
 const readdirAsync = require("util").promisify(require("fs").readdir);
-const translationsPath =  require("path").join(__dirname, "locales");
+const path = require("path");
+const translationsPath = path.join(__dirname, "locales");
 
 const backendOptions = {
-  loadPath: "./locales/{{lng}}/{{ns}}.json",
+  loadPath: path.join(translationsPath,"{{lng}}/{{ns}}.json") ,
   jsonIndent: 2,
 };
 
@@ -60,7 +61,7 @@ const translateEngineStart = () => {
           console.warn(
             "•".yellow,
             "Failed to Load Some Translations".yellow,
-            `\n${err.map((e) => e?.path?.gray).join("\n")}`
+            `\n${err.map((e) => e?.path?.replace(translationsPath,"  -  locales")?.gray).join("\n")}`
           );
         }
         console.log("• ".green, "Translation Engine Loaded");
