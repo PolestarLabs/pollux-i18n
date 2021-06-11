@@ -20,7 +20,7 @@
         "C": "Comum",
         "U": "Incomum",
         "R": "Raro",
-        "SR": "Super Raro",
+        "SR": "Tri Bagual",
         "UR": "Ultra Raro",
         "thevoid": "vazio",
         "evToken": "",
@@ -127,7 +127,7 @@
     "responses": {
         "errors": {
             "iNeedThesePerms": "As permissões seguintes não estão presentes para proceder corretamente:\n{{PERMSLIST}}",
-            "denied": "",
+            "denied": "Não estás autorizado a usar isto. Este comando requer um rank elevado a {{rankNeed}}, o teu rank é {{rankMe}}. Contacta o dono do servidor ou um Mod.",
             "disabledModule": ":no_entry_sign: O nosso mestre declarou {{module}} proibido aqui. Ora bolas.",
             "genericInvalid": "Uh-oh... Comando inválido ;-;",
             "prefixChng": "Ok, o meu prefixo agora é {{prefix}}, tenta agora usando `{{prefix}}stats`",
@@ -245,7 +245,7 @@
                 "ohmy_negative": [
                     "",
                     "",
-                    "",
+                    "Mas que barbaridade...",
                     "",
                     "",
                     ""
@@ -456,17 +456,17 @@
                 ""
             ],
             "firstDaily": "",
-            "dailyNope": ""
+            "dailyNope": "{{emoji}} Ei! Tu já resgataste o teu bónus diário, tempo restante para o próximo: **{{remaining}}**"
         },
         "toggle": {
             "disabledSer": "O módulo **{{module}}** foi desativado **globalmente**.",
-            "disabledChn": "",
+            "disabledChn": "O módulo {{module}} foi desativado no canal <#{{channel}}>",
             "disabledComSer": "O comando **{{command}}** foi desligado **globalmente**.",
-            "disabledComChn": "",
+            "disabledComChn": "O comando **{{command}}** foi desligado no canal <#{{channel}}>",
             "enabledSer": "O módulo **{{module}}** foi ativado **globalmente**.",
-            "enabledChn": "",
+            "enabledChn": "O módulo {{module}} foi ativado no canal <#{{channel}}>",
             "enabledComSer": "O comando **{{command}}** foi ativado **globalmente**.",
-            "enabledComChn": ""
+            "enabledComChn": "O comando **{{command}}** foi ativado no canal <#{{channel}}>"
         },
         "reput": {
             "noSelf": "Hey, puto! Não podes dar rep a ti próprio!",
@@ -761,7 +761,7 @@
             "quick_useful": "",
             "quick_enjoy": "",
             "quick_didntask": "",
-            "avail_cmd": "Comandos Disponíveis",
+            "avail_cmd": "Comandos Disponíves ",
             "avail_cmdlist": "",
             "notenough": "",
             "trythese": "",
