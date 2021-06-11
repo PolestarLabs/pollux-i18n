@@ -1,8 +1,8 @@
 let reroute;
-require("colors")
+require("colors");
 const i18next = require("i18next");
 const i18n_backend = require("i18next-node-fs-backend");
-const readdirAsync = require('util').promisify(require("fs").readdir);
+const readdirAsync = require("util").promisify(require("fs").readdir);
 
 const backendOptions = {
   loadPath: "./locales/{{lng}}/{{ns}}.json",
@@ -20,15 +20,15 @@ const i18n_node = {
   rand: function rand(string, params) {
     const loc = reroute;
     const options = loc(string, { returnObjects: true, ...params }, params);
-    const ran = Math.floor(Math.random() * (options.length));
+    const ran = Math.floor(Math.random() * options.length);
 
     return options[ran];
   },
 };
 
-
 const translateEngineStart = () => {
-  readdirAsync( "./locales" ).then((list) => {
+  "Translation Engine Loading!";
+  return readdirAsync("./locales").then((list) => {
     i18next.use(i18n_backend).init(
       {
         backend: backendOptions,
@@ -71,7 +71,10 @@ const translateEngineStart = () => {
       }
     );
   });
-  return "Translation Engine Loading!";
 };
 
-module.exports = {translateEngineStart,i18n_node,translationsPath: require('path').resolve(__dirname,"./locales") };
+module.exports = {
+  translateEngineStart,
+  i18n_node,
+  translationsPath: require("path").resolve(__dirname, "./locales"),
+};
