@@ -74,4 +74,4 @@ const translateEngineStart = () => {
   return "Translation Engine Loading!";
 };
 
-module.exports = {translateEngineStart,i18n_node};
+module.exports = {translateEngineStart,i18n_node,translationsPath: require('path').resolve(__dirname,"./locales") };
