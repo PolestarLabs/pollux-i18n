@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/PolestarLabs/pollux-i18n/issues"
   },
-  "homepage": "https://github.com/PolestarLabs/pollux-i18n#readme"
+  "homepage": "https://github.com/PolestarLabs/pollux-i18n#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "i18next": "^20.3.1",
+    "i18next-node-fs-backend": "^2.1.3"
+  }
 }

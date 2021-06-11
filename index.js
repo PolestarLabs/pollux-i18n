@@ -1,4 +1,5 @@
 let reroute;
+require("colors")
 const i18next = require("i18next");
 const i18n_backend = require("i18next-node-fs-backend");
 
