@@ -1,7 +1,7 @@
 {
     "rrlt": {
-        "singleplayer_no_bet": "",
-        "singleplayer_no_funds": "",
+        "singleplayer_no_bet": "musisz podać ilość rubinów, które zamierzasz ~~zmarnować~~ użyć, lub możesz użyć \"multiplayer\" do stworzenia gry wieloosobowej.",
+        "singleplayer_no_funds": "nie posiadasz wystarczającej ilości pieniędzy do zmarnowania w rosyjskiej ruletce",
         "min_bet": "",
         "max_bet": "",
         "singleplayer_instructions": "",
