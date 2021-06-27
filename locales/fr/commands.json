@@ -176,7 +176,7 @@
 		"balance": "`{{prefix}}balance` Si tu penses qu'utiliser cette commande est trop compliqué, alors n'essaye pas...",
 		"ban": "`{{prefix}}ban @n'importequi <reason>`\nBannit @n'importequi du serveur, la raison est optionnelle.",
 		"betflip": "`{{prefix}}betflip X [pile | face]`\nExemple:`{{prefix}}betflip 5 face`\nLa mise minimale est de 3 Rubines~",
-		"blackjack": "`{{prefix}}blackjack 50` La mise minimale est de 10 Rubines, le maximum est de 2500.",
+		"blackjack": "",
 		"brackets": "",
 		"bye": "`{{prefix}}bye [msg|timer] [message|secondes]` \n\n`{{prefix}}bye msg Aurevoir %user% !`\n Change le message en \"Aurevoir @User !\"\n\n`{{prefix}}bye timer 10`\n Ajoute un temps d'auto-suppression du message, 0 le garde pour toujours.\n\n`{{prefix}}bye`\nSans paramètres, cette commande activera ou désactivera simplement l'émission de messages.\n\n**Infos**:\n`%user%` Mentionne l'utilisateur.\n`%username%` Ecris le pseudo de la personne, sans mentionner.",
 		"candy": "`{{prefix}}candy [@nimportequi]`",
