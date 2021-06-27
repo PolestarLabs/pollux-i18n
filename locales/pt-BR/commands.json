@@ -159,7 +159,7 @@
 		"marketplace": "Troque itens com outros jogadores!"
 	},
 	"usage": {
-		"marketplace": "**Este é um comando avançado em fase experimental! *\nEsteja ciente de que seu uso é um pouco bruto em certas áreas e talvez você precise pesquisar algumas coisas antes de usá-las corretamente. Certifique-se de ler todas as informações aqui e na [wiki](https://wiki.pollux.gg/marketplace);\n\n`{{prefix}}market post [sell|buy] [background|medal|item] [ID do item] (RBN|SPH)` Publique um novo item à venda ou WTB (want to buy / compro)\n`{{prefix}}market list [me|@user|user ID]` lista entradas de um usuário específico\n`{{prefix}}market delete [ID da entrada]` Deleta uma de **suas** entradas\n",
+		"marketplace": "",
 		"roulette": "A Roleta da Pollux tem todos os sinos e apatos da clássica Roleta Francesa, bem como um pouco das variações do jogo do Reino Unido e dos EUA.\n\nPara começar uma partida, use a `{{prefix}}roulette` e convide seus amigos. Você terá **45 segundos** para entrar.\n\nPara fazer uma aposta envie `bet [AMOUNT] [TYPE]` onde `[AMOUNT]` é quantos Rubines você está apostando (10 - 2500) e `[TYPE]` é o que tipo de aposta você fará.\n\n**Exemplo de apostas:**\n • 100 Rubines no Número 25 `bet 100 25`\n • 50 Rubines nos números mais baixos (manca) `bet 50 manque`\n • 1200 Rubines em um Quadrado a partir do 11 (11-12-14-15) `bet 1200 square 11`\n • Apostar 88 Rubines na Primeira Coluna (linha superior de 3 a 36) `bet 88 c 1`\n\n [Confira a Wiki para informações mais detalhadas sobre como jogar]\n(https://wiki.pollux.gg/en/games/roulette)",
 		"whatanime": "`{{prefix}}whatanime [URL DE IMAGEM]`\n\nUsando este comando com um anexo também funciona.\nSe nenhuma imagem for fornecida, será usada a última imagem postada no canal.",
 		"ahegao": "Simples, apenas digite `{{prefix}}ahegao` e você recebe um アヘ顔 ***(Ai, que delícia, cara!\\~\\~)***",
@@ -176,7 +176,7 @@
 		"balance": "`{{prefix}}balance` Se for muito difícil pra você, nem use.",
 		"ban": "`{{prefix}}ban @alguem <motivo>`\nBane @alguem do server, o motivo é opcional, para caso de moderação avançada.",
 		"betflip": "`{{prefix}}betflip X [cara | coroa]` Lembrando que é CARA ou COROA no idioma configurado em mim!\nExemplo:`{{prefix}}betflip 5 coroa`\nAposta mínima de 3 Rubines",
-		"blackjack": "`{{prefix}}blackjack 50` Aposta mínima é 10, máxima 2500.",
+		"blackjack": "",
 		"brackets": "`{{prefix}}brackets (-rr) [número | lista de participantes (separados por vírgulas) | cargo <@cargo | Nome do Cargo> ]`\n\n`{{prefix}}brackets 10` Gera Chaves Regulares para 10 times (Com pré-partidas para BYEs);\n(máx. 32)\n`{{prefix}}brackets -rr role Torneio` Gera uma Tabela de Partidas de Pontos Corridos para todos os membros com o cargo @Torneio;\n(máx. 16)\n`{{prefix}}brackets Time Sapphires, Time Rubines, Time Jades, Time Nitro` Gera Chaves Regulares para os times listados;\n(máx.32)",
 		"bye": "`{{prefix}}bye [msg|timer] [mensagem|segundos]` \n\n`{{prefix}}bye msg Adeus %user% !`\nAltera a mensagem para \"Adeus @alguem !\"\n\n`{{prefix}}bye timer 10`\n Configura a mensagem para apagar automaticamente após 10 segundos. Use 0 para não apagar.\n\n`{{prefix}}bye`\n Sem parâmetros, este comando liga e desliga as mensagens de despedida.\n\n**Curingas**:\n`%user%` Menciona o usuário.\n`%username%` Diz apenas o nome do usuário, sem mencionar.",
 		"candy": "`{{prefix}}candy [@fulano]`",
