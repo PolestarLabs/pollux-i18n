@@ -176,7 +176,7 @@
 		"balance": "Es ist total einfach, gib einfach nur ´{{prefix}}balance´ ein.",
 		"ban": "`{{prefix}}ban @irgendjemand [Grund]`\nBanne @irgendjemand von dem Server, der Grund ist optional für eine erweiterte Moderation.",
 		"betflip": "`{{prefix}}betflip X [heads | tails]` Bedenke das dies KOPF oder ZAHL ist in der Sprache in der du mich eingestellt hast!\nBeispiel:`{{prefix}}betflip 5 heads`\nMinimal Einsatz ist 3 Rubines",
-		"blackjack": "`{{prefix}}blackjack 50´ Der Minimumeinsatz ist 10, und der Höchste 2500",
+		"blackjack": "",
 		"brackets": "`{{prefix}}Klammern (-rr ) [number | Liste der Teilnehmer (kommagetrennt) | Rolle <@role | Rolle Name> ]`\n\n`{{prefix}}Klammern 10` Generiert reguläre Klammern für 10 Teams (mit Vorspielen für Byes) (max. 2)\n`{{prefix}}Klammern -rr Rolle Turnier` Erzeugt einen Round-Robin-Match-Tisch für alle Mitglieder in der @Turnierrolle (max. 6)\n`{{prefix}}Klammern Team 1, Team 2, Team 3, Team 4` Erzeugt reguläre Klammern für die aufgeführten Teams (max.32)",
 		"bye": "`{{prefix}}bye [msg|timer] [Nachricht|Sekunden]` \n\n`{{prefix}}bye msg Goodbye %user% !`\n Ändert die Abschiedsnachricht zu: \"Goodbye @User !\"\n\n`{{prefix}}bye timer 10`\n Setzt eine Zeit nachdem die Abschiedsnachricht automatisch gelöscht werden soll. 0 Zum deaktivieren.\n\n`{{prefix}}bye`\nOhne weitere Argumente kannst du hiermit die Abschiedsnachricht an/aus schalten.\n\n**Platzhalter**:\n`%user%` Markiert einen Benutzer.\n`%username%` Gibt den Benutzernamen ohne @Markierung aus.",
 		"candy": "`{{prefix}}candy  [@jemand]`",
