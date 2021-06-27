@@ -176,7 +176,7 @@
 		"balance": "Det är rätt så simpelt, det är bara `{{prefix}}balance`.",
 		"ban": "`{{prefix}}ban @någon [skäl]`\nBannar @någon från servern, du kan även lägga till en anledning.",
 		"betflip": "`{{prefix}}betflip X [Krona | Klave]`\nExempel:`{{prefix}}betflip 5 krona`\nDu kan som minst satsa 3 Rubiner",
-		"blackjack": "`{{prefix}}blackjack 50` Satsa minst 10, max 2500.",
+		"blackjack": "",
 		"brackets": "`{{prefix}}parenteser (-rr ) [antal <unk> lista över deltagare (kommaseparerade) <unk> roll <@roll <unk> Roll Name> ]`\n\n`{{prefix}}parenteser 10` Genererar reguljära parenteser för 10 team (med förmatcher för Byes) (max. 2)\n`{{prefix}}parenteser -rr roll Tournament` Genererar en Round-Robin Match Table för alla medlemmar i @Tournament rollen (max. 6)\n`{{prefix}}parenteslag 1, lag 2, lag 3, lag 4` Genererar reguljära parenteser för de listade lagen (max.32)",
 		"bye": "`{{prefix}}bye [msg<unk> timer] [mensagem<unk> segundos]` \n\n`{{prefix}}bye msg Goodbye %user% !`\n Ändrar meddelandet till \"Goodbye @User !\n\n`{{prefix}}bye timer 10`\n Ange en tid i sekunder för automatisk radering, 0 för att hålla det för evigt.\n\n`{{prefix}}bye`\nUtan några parametrar kommer detta kommando att växla på och av avsändande av meddelanden.\n\n**Wildcards**:\n`%user%` Nämner användaren.\n`%username%` Utför användarens namn, utan omnämnande.",
 		"candy": "`{{prefix}}candy [@någon]`",
