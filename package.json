@@ -1,6 +1,6 @@
 {
   "name": "pollux-i18n",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "Pollux Translations",
   "main": "index.js",
   "scripts": {
