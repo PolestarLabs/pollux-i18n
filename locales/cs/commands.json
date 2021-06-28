@@ -176,7 +176,7 @@
 		"balance": "`{{prefix}}balance` Pokud si myslíš že je používání tohodle příkazu moc těžký, ani to nezkoušej.",
 		"ban": "`{{prefix}}ban @někdo <důvod>`\nZabanuje `@někdo` ze serveru, důvod je dobrovolný, pro případy více rozšířených moderačních potřeb.",
 		"betflip": "`{{prefix}}betflip X [orel | pana]` Pamatuj, že je to OREL nebo PANA v jazyce, do kterého jsi mě nastavil!\nPříklad:`{{prefix}}betflip 5 orel`\nMinimální sázka jsou 3 rubíny",
-		"blackjack": "`{{prefix}}blackjack 50` Minimální sázka je 10, maximální 2500.",
+		"blackjack": "",
 		"brackets": "",
 		"bye": "",
 		"candy": "`{{prefix}}candy [@někdo]`",

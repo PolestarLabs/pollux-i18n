@@ -176,7 +176,7 @@
 		"balance": "`{{prefix}}balance` Ha úgy gondolod, hogy túl nehéz lenne ezt a parancsot használni, akkor inkább meg se próbáld.",
 		"ban": "`{{prefix}}ban @valaki [ok]`\nBannolja @valaki-t a szerverről, ennek az okát is megadhatod.",
 		"betflip": "",
-		"blackjack": "`{{prefix}}blackjack 50` A legkisebb tét 10, a legnagyobb 2500.",
+		"blackjack": "",
 		"brackets": "",
 		"bye": "",
 		"candy": "`{{prefix}}candy [@valaki]`",

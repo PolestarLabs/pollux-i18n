@@ -176,7 +176,7 @@
 		"balance": "Гэта даволі проста, гэта ўсяго толькі `{{prefix}}balance`.",
 		"ban": "`{{Prefix}}ban @someguy [прычына]`\nБанит @кагосьці з сервера, вы таксама можаце дадаць прычыну.",
 		"betflip": "`{{Prefix}}betflip X [арол | рэшка] `\nПрыклад: `{{prefix}}betflip 5 heads`\nМінімальная стаўка - 3 Рубіна",
-		"blackjack": "`{{prefix}}blackjack 50` Мінімальная стаўка - 10, максімальная - 2500.",
+		"blackjack": "",
 		"brackets": "",
 		"bye": "",
 		"candy": "",

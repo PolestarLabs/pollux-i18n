@@ -176,7 +176,7 @@
 		"balance": "To całkiem proste, to po prostu `{{prefix}}balance`.",
 		"ban": "`{{prefix}} ban @someguy [powód]`\nZbanuj @ktos z serwera, możesz również dodać przyczynę.",
 		"betflip": "`{{prefix}}betflip X [heads | tails]`\nPrzykład: `{{prefix}}betflip 5 heads`\nMinimalny zakład to 3 Rubiny",
-		"blackjack": "`{{prefix}}blackjack 50` Minimalny zakład to 10, a maksymalny to 2500.",
+		"blackjack": "",
 		"brackets": "`{{prefix}}brackets (-rr) [numer | lista uczestników (oddzielonych przecinkami) | rola <@rola | nazwa roli> ]`\n\n`{{prefix}}brackets 10` Generuje zwykłą Tabelę dla 10 drużyn (z przedmeczami dla Bye'ów) (maks. 32)\n`{{prefix}}brackets -rr role Tournament` Generuje stół w którym każdy zawodnik gra z każdym dla osób z rolą Tournament (maks. 16)\n`{{prefix}}brackets team 1, team 2, team 3, team 4` Generuje zwykłą Tabelę dla wymienionych drużyn (maks. 32)",
 		"bye": "`{{prefix}}bye [msg|timer] [wiadomość|sekundy]` \n\n`{{prefix}}bye msg Goodbye %user% !`\n Zmienia wiadomość na \"Goodbye @User !\"\n\n`{{prefix}}bye timer 10`\n Ustawia czas w sekundach do samozniszczenia wiadomości. Wpisz 0 aby wiadomość się nie usunęła.\n\n`{{prefix}}bye`\nBez żadnych parametrów, ta komenda włącza i wyłącza wysyłanie wiadomości pożegnalnych.\n\n**Dzikie Karty**\n`%user%` Oznacza użytkownika.\n`%username%` Wyświetla nazwę użytkownika bez oznaczania go.",
 		"candy": "`{{prefix}}candy [@ktos]`",

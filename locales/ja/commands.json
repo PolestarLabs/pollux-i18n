@@ -176,7 +176,7 @@
 		"balance": "`{{prefix}}balance` このコマンドの使用が難しいと思われる場合は、試してもいけません。",
 		"ban": "`{{prefix}}ban @someguy [理由]`\nサーバからの@someguyを禁止します。理由はオプションです。",
 		"betflip": "`{{prefix}}betflip X [ヘッド| 尾]` あなたが私に設定した言語の頭や尾です。\n例：{{prefix}}betflip 5 heads`\n最低賭け金は3ルビン",
-		"blackjack": "`{{prefix}}blackjack 50` 最小ベットは10、最大値は2500です。",
+		"blackjack": "",
 		"brackets": "",
 		"bye": "",
 		"candy": "",

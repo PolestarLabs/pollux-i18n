@@ -176,7 +176,7 @@
 		"balance": "Tази комада показва вашият `{{prefix}}balance`.",
 		"ban": "`{{prefix}}ban @someguy [причина]`\nИзключва @човек от сървъра, можете също да добавите причина.",
 		"betflip": "`{{prefix}}betflip X [ези | тура]\nПример: `{{prefix}}betflip 5 ези`\nМинималният залог е 3 Rubies",
-		"blackjack": "`{{prefix}}blackjack 50` Минималнаят залок - 10, максималнаят - 2500.",
+		"blackjack": "",
 		"brackets": "",
 		"bye": "",
 		"candy": "`{{prefix}}candy [@потребителя]`",

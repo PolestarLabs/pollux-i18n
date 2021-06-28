@@ -176,7 +176,7 @@
 		"balance": "Gayet basit, `{{prefix}}balance` yazacaksın sadece.",
 		"ban": "`{{prefix}}ban @birisi [nedeni]`\n@birisini sunucudan banlar, nedenini de ekleyebilirsin.",
 		"betflip": "`{{prefix}}betfilp  X [yazı | tura]\nÖrnek: `{{prefix}}betflip 5 tura`\nMinimum bahis miktarı 3 Rubin.",
-		"blackjack": "`{{prefix}}blackjack 50` asgari bahis 10, azami bahis ise, 2500.",
+		"blackjack": "",
 		"brackets": "`{{prefix}}brackets (-rr ) [sayı | katılımcıların sayısı (nokta ile ayrılmış) | rol <@rol | Rol İsmi> ]`\n\n`{{prefix}}brackets 10` 10 takım için normal onluk gruplar oluşturur (Bay geçmek için ön elemelerle birlikte) (maks. 32)\n`{{prefix}}brackets -rr role Tournament` @Turnuva Rolündeki herkes için Yuvarlak bir Robin Maç Tablosu oluşturur (maks. 16)\n\n`{{prefix}}brackets team 1, team 2, team 3, team 4` listelenmiş takımlar için Normal gruplar oluşturur. (maks. 32)",
 		"bye": "`{{prefix}}bye [msg|timer|chn]\n[mesaj|saniye|kanal] `\n\n`{{prefix}}bye msg Güle Güle git %user% ! \nMesajı \"Güle Güle git @user !\" olarak değiştirir.\n\n`{{prefix}}bye timer 10`\nSaniye biriminde olmak üzere gecikme için bir süre seç. Sonsuza kadar sürmesi için 0'a ayarla. \n\n`{{prefix}}bye` Önüne bir şey gelmezse bu mesaj görüşürüz mesajlarını kapatıp açar.\n\n**Jokerler**\n`%user%` Kullanıcıyı etiketler.\n`%username%` Etiketlemeden kullanıcının adını söyler.",
 		"candy": " `{{prefix}}candy [@birisi]`",

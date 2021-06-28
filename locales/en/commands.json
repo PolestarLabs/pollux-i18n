@@ -176,7 +176,7 @@
 		"balance": "It's quite simple, it's just `{{prefix}}balance`.",
 		"ban": "`{{prefix}}ban @someguy [reason]`\nBans @someguy from the Server, You can also add a reason.",
 		"betflip": "`{{prefix}}betflip X [heads | tails]`\nExample:`{{prefix}}betflip 5 heads`\nMinimum bet is 3 Rubines",
-		"blackjack": "`{{prefix}}blackjack 50` Minimum bet is 10, maximum is 2500.",
+		"blackjack": "",
 		"brackets": "",
 		"bye": "`{{prefix}}bye [msg|timer] [mensagem|segundos]` \n\n`{{prefix}}bye msg Goodbye %user% !`\nChanges the message to \"Goodbye @User !\"\n\n`{{prefix}}bye timer 10`\nSet a time in seconds for auto-deletion, 0 for keeping it forever.\n\n`{{prefix}}bye`\nWithout any parameters, this command will toggle on and off the emission of messages.\n\n**Wildcards**:\n`%user%` Mentions the user.\n`%username%` Outputs the user's name, without mention.",
 		"candy": "`{{prefix}}candy [@someguy]`",

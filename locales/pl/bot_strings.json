@@ -168,7 +168,7 @@
                 "Za dużo komend!",
                 "Aaah! Zwolnij!",
                 "Mam tylko tyle palców, żeby wcisnąć tyle przycisków! Odpocznij!",
-                "Co to za pośpiech?!",
+                "Co to za pośpiech?! Poczekaj kilka sekund, żeby użyć tej komendy ponownie.",
                 "Potrzebuję chwili na odetchnięcie!",
                 "Słoneczko, proszę, pojedynczo.",
                 "*Jesteś zbyt szybki senpai uwu nie daję rady uwu*"
@@ -291,13 +291,13 @@
             "graphs": "Wykresy na żywo",
             "guide": "Przewodnik użytkownika",
             "tax": "Informacje podatkowe",
-            "tax_desc": "",
+            "tax_desc": "Podatek wymiany: **{{exchange}}%**\nPodatek dochodowy: **{{income}}%**\nPodatek transferowy: **{{transfer}}%**",
             "discoin_desc": "Twoje Rubiny są wysyłane, odpowiedź z {{bot}} pojawi się, gdy tylko nadejdzie.",
             "receipt": "Oto Twoje potwierdzenie transakcji:",
             "receiptnoDM": "Nie mogłam dostarczyć tego w dms, więc oto Twoje pokwitowanie:",
             "takedis": "Zachowaj te pokwitowanie na wypadek, gdyby Twoje Rubiny nie dotarły do celu.",
             "invalidCurr": "Ta waluta nie istnieje! Użyj `{{prefix}}exchange`, aby zobaczyć wszystkie dostępne waluty.",
-            "debt": "",
+            "debt": "Nie możesz wymienić długu, wymiana od co najmniej 1 Rubinu!",
             "zero": "Wymień co najmniej 1 Rubina.",
             "perMin": "Minimalnie przypada {{perMin}} Rubinów na transakcję.",
             "perMax": "Maksymalnie na transakcję przypada {{perMax}} Rubinów.",
@@ -313,13 +313,13 @@
             "persotexUpdate": "Zmieniłam twój cytat na: {{pstext}}\nUżyj `{{prefix}}profile`, aby zobaczyć nowy wiersz na twojej karcie profilu. Jestem pewna, że komuś się spodoba."
         },
         "gift": {
-            "noTarget": "",
-            "noSelf": "",
-            "invEmpty": "",
-            "invEmptyGive": "",
-            "inv>1": "",
-            "inv<amt": "",
-            "sent": ""
+            "noTarget": "Musisz wspomnieć, kto powinien to otrzymać!",
+            "noSelf": "Byłoby o wiele milej, gdybyś dał ten prezent komuś innemu!",
+            "invEmpty": "Wygląda tu pusto...",
+            "invEmptyGive": "Nie masz jeszcze żadnych prezentów, dlaczego by czegoś nie zapakować?",
+            "inv>1": "Masz {{count}} prezentów, musisz określić które chcesz podarować!",
+            "inv<amt": " {{count}} to więcej niż posiadane prezenty... spróbuj ponownie.",
+            "sent": "🎁 <@{{sender}}> wysłał(a) **prezent ** do <@{{target}}>"
         },
         "trade": {
             "exchangeWhat": "Co dasz w zamian?",
@@ -410,7 +410,7 @@
         "thx": {
             "after": "",
             "wipe": "",
-            "noself": ""
+            "noself": "Wolałbym żebyś podziękował komuś innemu."
         },
         "divorce": {
             "confirmdiag": "Zgadzasz sie na wzięcie rozwodu z {{user}}? Opłata %EMJ% w wysokości **5000 Rubinów** zostanie pobrana od **każdego** z was. Wasze PunktyMiłości zostaną **podzielone na pół**!",
@@ -542,21 +542,21 @@
             "commendationLimit": ""
         },
         "timers_generic": {
-            "cooldown": "",
-            "check_no": "",
-            "check_yes": "",
-            "noSelf": ""
+            "cooldown": "Powoli mój drogi! Możesz to zrobić ponownie za {{remaining}}",
+            "check_no": "Musisz jeszcze poczekać {{remaining}} , żeby ponownie użyć `{{command}}`~",
+            "check_yes": "Dobre wieści! Możesz użyć `{{command}}` w dowolnej chwili!",
+            "noSelf": "Wiesz, że nie możesz tego sobie zrobić, nie?"
         },
         "crafting": {
             "craftingItem": "Tworzę `{{item_name}}`",
-            "craftedItem": "",
+            "craftedItem": "Stworzono `{{item_name}}`",
             "noitem": "Nie mogę znaleźć tego przedmiotu",
             "noitemlike": "",
-            "gemsMissing": "",
+            "gemsMissing": "Tworzenie nie jest darmowe, nie mogę tego wytworzyć bez odpowiednich klejnotów.",
             "materialMissing": "Brakuje ci materiałów w ekwipunku, nie mogę tego stworzyć.",
-            "materialAutocraft": "",
+            "materialAutocraft": "Brakuje Ci kilku materiałów... chciałbyś żebym sprawdziła, czy mogę je stworzyć?",
             "materialPresent": "Wszystkie materiały są w twoim ekwipunku, kontynuować?",
-            "materialPresentAuto": "",
+            "materialPresentAuto": "Dostępne są wszystkie materiały do automatycznego wytwarzania, kontynuować tworzenie?",
             "didyoumean": "Nie mogę znaleźć tego przedmiotu. Może chodzi Ci o jeden z tych?",
             "didyoumeanOne": "Coś tu się nie zgadza... Czy to jest to czego szukasz, mój drogi?",
             "timeout": "Koniec czasu! Za długo się decydowałeś, piec do tworzenia już jest chłodny.",
@@ -579,7 +579,7 @@
         },
         "give": {
             "cooldown": "Powoli! Następny transfer możesz wykonać za {{remaining}}!",
-            "not2self": ""
+            "not2self": "Poczekaj, nie możesz dać czegoś sobie samemu!"
         },
         "inventory": {
             "noSuchBox": "Spójrz, nie widzę tam tego pudełka i jestem pewna że ty też.",
@@ -808,7 +808,7 @@
         "eventDrop": "Tego jest więcej! Te pudełko to **EVENTOWE PUDEŁKO** co znaczy że **w środku są specjalne przedmioty'!**",
         "notThisbox": "Wydaje się, że nie masz tego pudełka, spróbuj ponownie {{prefix}}lootbox` i zobacz jakie posiadasz.",
         "options_new": "{{k_emoji}}Zachowaj | {{r_emoji}}Losuj ponownie {{amt}}",
-        "options_nrr": "",
+        "options_nrr": "{{k_emoji}}Zachowaj | {{r_emoji}}Losuj ponownie {{amt}}",
         "rerollRemain_new": "Możesz losować ponownie jeszcze **jeden** raz!",
         "rerollRemain_new_plural": "Możesz losować ponownie jeszcze **{{count}}** razy!",
         "hasDupes": "{{x_frags}} zduplikowanych przedmiotów!",

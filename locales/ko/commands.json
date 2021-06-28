@@ -176,7 +176,7 @@
 		"balance": "그것은 매우 간단합니다. 단지 `{{prefix}}balance' 입니다.",
 		"ban": "`{{prefix}}ban @someguy [이유]`\n서버에서 누군가를 쫓아 내십시오. 이유를 추가 할 수도 있습니다.",
 		"betflip": "`{{prefix}}betflip X [heads | tails]\n예:`{{prefix}}betflip 5 heads`\n최소 배팅은 3 루빈입니다.",
-		"blackjack": "`{{prefix}}blackjack 50` 최소 베팅은 10이고 최대 값은 2500입니다.",
+		"blackjack": "",
 		"brackets": "",
 		"bye": "",
 		"candy": "",

@@ -176,7 +176,7 @@
 		"balance": "`{{prefix}}balance`, bastante simple, ¿no?.",
 		"ban": "`{{prefix}}ban @alguien [reason]`\nBanea @alguien del servidor, también podes añadir una razón.",
 		"betflip": "`{{prefix}}betflip X [cara | cruz]` \nEjemplo:`{{prefix}}betflip 5 Cara`\nApuesta mínima es 3 Rubíes",
-		"blackjack": "`{{prefix}}blackjack 50` Apuesta mínima es de 10, máxima es de 2500.",
+		"blackjack": "",
 		"brackets": "`{{prefix}}brackets (-rr ) [número | lista de entradas (con comas) | rol <@role | Nombre de Rol> ]`\n\n`{{prefix}}brackets 10` Genera Brackets normales para 10 Equipos (con preliminares para los Bye) (max.32)\n`{{prefix}}brackets -rr role Tournament` Genera una tabla de partidas Round-robin para todos los miembros del @Tournament role (max.16)\n`{{prefix}}brackets team 1, team 2, team 3, team 4` Genera Brackets normales para los Equipos listados (max.32)",
 		"bye": "`{{prefix}}bye [msg|timer] [mensagem|segundos]` \n\n`{{prefix}}bye msg Asta la vista %user% !`\n Cambia el mensaje a \"Asta la vista @User !\"\n\n`{{prefix}}bye timer 10`\n Establece un tiempo en segundos para auto eliminación, 0 para mantenerlo para siempre.\n\n`{{prefix}}bye`\nsin ningún parámetro, este comando activara o desactivara la emisión de mensajes.\n\n**Wildcards**:\n`%user%` Menciona al usuario.\n`%username%` Coloca el nombre del usuario, sin mención.",
 		"candy": "`{{prefix}}candy [@alguien]`",

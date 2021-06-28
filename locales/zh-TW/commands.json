@@ -176,7 +176,7 @@
 		"balance": "`{{prefix}}balance`如果你覺得這指令太難，那勸你還是別做死好了",
 		"ban": "`{{prefix}}ban @某某人 [原因]`\n在伺服器中Ban掉@某某人，原因可以不用填，那只是方便你管理用的",
 		"betflip": "`{{prefix}}betflip X [人頭那面 | 字的那面]`值得注意的是，\"人頭\"跟\"字\"是你設定的語言\n例如：`{{prefix}}betflip 5 heads`\n最低賭注是3個紅寶石",
-		"blackjack": "`{{prefix}}blackjack 50`最小賭注是10，最大是2500",
+		"blackjack": "",
 		"brackets": "",
 		"bye": "",
 		"candy": "`{{prefix}}candy [@某某人]`",
