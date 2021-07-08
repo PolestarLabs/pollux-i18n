@@ -156,9 +156,13 @@
 		"ytalert": "Envia os vídeos novos de um canal do YouTube diretamente em seu servidor!",
 		"whatanime": "Localiza de qual anime a imagem pertence.",
 		"roulette": "Jogue o mais divertido e mais recompensador minigame de casino entre todos!",
-		"marketplace": "Troque itens com outros jogadores!"
+		"marketplace": "Troque itens com outros jogadores!",
+		"multi": "",
+		"errands": ""
 	},
 	"usage": {
+		"errands": "",
+		"multi": "",
 		"marketplace": "",
 		"roulette": "A Roleta da Pollux tem todos os sinos e apatos da clássica Roleta Francesa, bem como um pouco das variações do jogo do Reino Unido e dos EUA.\n\nPara começar uma partida, use a `{{prefix}}roulette` e convide seus amigos. Você terá **45 segundos** para entrar.\n\nPara fazer uma aposta envie `bet [AMOUNT] [TYPE]` onde `[AMOUNT]` é quantos Rubines você está apostando (10 - 2500) e `[TYPE]` é o que tipo de aposta você fará.\n\n**Exemplo de apostas:**\n • 100 Rubines no Número 25 `bet 100 25`\n • 50 Rubines nos números mais baixos (manca) `bet 50 manque`\n • 1200 Rubines em um Quadrado a partir do 11 (11-12-14-15) `bet 1200 square 11`\n • Apostar 88 Rubines na Primeira Coluna (linha superior de 3 a 36) `bet 88 c 1`\n\n [Confira a Wiki para informações mais detalhadas sobre como jogar]\n(https://wiki.pollux.gg/en/games/roulette)",
 		"whatanime": "`{{prefix}}whatanime [URL DE IMAGEM]`\n\nUsando este comando com um anexo também funciona.\nSe nenhuma imagem for fornecida, será usada a última imagem postada no canal.",
