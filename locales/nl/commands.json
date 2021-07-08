@@ -156,9 +156,13 @@
 		"ytalert": "Verstuur nieuwe video's van een YouTube kanaal naar je server!",
 		"whatanime": "",
 		"roulette": "",
-		"marketplace": ""
+		"marketplace": "",
+		"multi": "",
+		"errands": ""
 	},
 	"usage": {
+		"errands": "",
+		"multi": "",
 		"marketplace": "",
 		"roulette": "",
 		"whatanime": "",
