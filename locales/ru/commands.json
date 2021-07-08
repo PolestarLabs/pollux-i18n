@@ -156,9 +156,13 @@
 		"ytalert": "Размещайте новые видео с YouTube канала на ваш сервер!",
 		"whatanime": "",
 		"roulette": "",
-		"marketplace": ""
+		"marketplace": "",
+		"multi": "",
+		"errands": ""
 	},
 	"usage": {
+		"errands": "",
+		"multi": "",
 		"marketplace": "",
 		"roulette": "",
 		"whatanime": "",
