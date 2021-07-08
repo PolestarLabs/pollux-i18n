@@ -156,9 +156,13 @@
 		"ytalert": "Pubblica nuovi video da un canale YouTube sul tuo server!",
 		"whatanime": "",
 		"roulette": "",
-		"marketplace": ""
+		"marketplace": "",
+		"multi": "",
+		"errands": ""
 	},
 	"usage": {
+		"errands": "",
+		"multi": "",
 		"marketplace": "",
 		"roulette": "",
 		"whatanime": "",
