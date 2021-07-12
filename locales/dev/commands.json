@@ -159,9 +159,10 @@
 		"marketplace": "Trade items with other players!",
 		"multi": "Create a message with options that can be seen privately by everyone that selects one of the options.",
 		"errands" : "A series of tasks to complete in order to progress globally with Pollux"
+		,"hangmaid": "A game of hangman, but hang a maid instead of a... man."
 	},
 	"usage": {
-		
+		"hangmaid":"`{{prefix}}hangmaid` - Normal Game (Server Mode)\n`{{prefix}}hangmaid solo` - Solo Mode\n\n**Server Mode**\nIn Server Mode your game will register as your server's name in Highscores table.\n**Solo Mode**\nIn Solo Mode only the game-starter will have the score registered in Highscores.\n\nTo see Highscores use `{{prefix}}highscores hangmaid`.",
 		"errands" : "`{{prefix}}errands` - Check and obtain new Errands.\n`{{prefix}}errands forfeit` - Pay 5 Sapphires to delete one Errand.",
 		"multi": "First option is the default one and always visible. Other options will be shown only for people that choose them from the dropdown menu. You can use embeds in all of them. Create them with [Pollux Embed Architect]({{ARCH_URL}}) and paste in the `description` step.\n\nTo see examples of this feature try `{{prefix}}multi demo (1 or 2)`\n\n**Steps**\n • Write the entire message for the option.\n • React to this message with an emoji if you wish to add one.\n • Afterwards, write the option label, send.\n • Then write the option description and send.\n • Send `content`, `label` or `description` anytime to edit that particular item.\n • ${_emoji('SAVE')} Send `save` to save and go to the next item.\n • ${_emoji('yep')} Send `finish` when you're done.\n • ${_emoji('nope')} Send `cancel` to abort.",
 		"marketplace": "**This is an advanced command in experimental stage!**\nBe wary that its usage is a bit rough around the edges and you may need to look up some stuff before properly using it. Be sure to read all information here and on the [wiki](https://wiki.pollux.gg/marketplace);\n\n`{{prefix}}market post [sell|buy] [background|medal|item] [item ID] [Priece] (RBN|SPH)` Post a new item for sale or WTB (want to buy)\n`{{prefix}}market list [me|@user|user ID]` list entries for a specific user\n`{{prefix}}market delete [entry ID]` Deletes one of **your** entries\n",
