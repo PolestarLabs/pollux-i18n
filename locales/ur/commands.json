@@ -158,9 +158,11 @@
 		"roulette": "",
 		"marketplace": "",
 		"multi": "",
-		"errands": ""
+		"errands": "",
+		"hangmaid": ""
 	},
 	"usage": {
+		"hangmaid": "",
 		"errands": "",
 		"multi": "",
 		"marketplace": "",
