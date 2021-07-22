@@ -156,9 +156,15 @@
 		"ytalert": "Bir YouTube Kanalından kendi sunucuna videolar at!",
 		"whatanime": "Bir görüntünün hangi anime olduğunu bulur.",
 		"roulette": "Tüm casino mini oyunları arasında en eğlenceli ve en çok kazandıranı oyna!",
-		"marketplace": ""
+		"marketplace": "",
+		"multi": "",
+		"errands": "",
+		"hangmaid": ""
 	},
 	"usage": {
+		"hangmaid": "",
+		"errands": "",
+		"multi": "",
 		"marketplace": "",
 		"roulette": "",
 		"whatanime": "",
