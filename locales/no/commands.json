@@ -156,9 +156,15 @@
 		"ytalert": "Legg inn nye videoer fra en YouTube-kanal til serveren din!",
 		"whatanime": "",
 		"roulette": "",
-		"marketplace": ""
+		"marketplace": "",
+		"multi": "",
+		"errands": "",
+		"hangmaid": ""
 	},
 	"usage": {
+		"hangmaid": "",
+		"errands": "",
+		"multi": "",
 		"marketplace": "",
 		"roulette": "",
 		"whatanime": "",
