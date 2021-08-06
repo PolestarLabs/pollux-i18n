@@ -1,7 +1,7 @@
 let reroute;
 require("colors");
 const i18next = require("i18next");
-const i18n_backend = require("i18next-node-fs-backend");
+const i18n_backend = require("i18next-fs-backend");
 const readdirAsync = require("util").promisify(require("fs").readdir);
 const path = require("path");
 const translationsPath = path.join(__dirname, "locales");
