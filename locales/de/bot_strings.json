@@ -456,7 +456,7 @@
                 ""
             ],
             "firstDaily": "",
-            "dailyNope": "{{result}}! Hey! Du hast deinen Preis heute schon erhalten!\nDu musst noch **{{remaining}}** warten, bevor du erneut einen Preis erhälst!"
+            "dailyNope": "Hmm? Sieht so aus, als ob du heute bereits deine Boni erhalten hast. Du kannst mehr **{{remaining}}** bekommen"
         },
         "toggle": {
             "disabledSer": "Schade, das **{{module}}** Modul wurde **Globally** deaktiviert.\nWie gemein...\n",
