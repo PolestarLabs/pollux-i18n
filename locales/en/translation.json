@@ -57,7 +57,7 @@
         "decon": "{{user}} is decontaminating themself.",
         "decon2": "{{user}} is decontaminating {{user2}}.",
         "cancer": "{{user}} is inspecting this channel's chance of cancer.",
-        "geiger": ":radioactive: According to the Geiger counter, this channel's cancer potential is **{{percentage}}%** with **{{radiation}}μSv/h** "
+        "geiger": ":radioactive: According to the Geiger counter, this channel's cancer potential is **{{percentage}}%** with **{{radiation}}μSv/h**"
     },
     "misc": {
         "memberSince": "{{target}} has been a member since: {{joinedstamp}}",
