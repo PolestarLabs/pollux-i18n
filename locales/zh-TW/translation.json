@@ -401,7 +401,7 @@
         "speak": "`{{prefix}}lang [語言]`或`{{prefix}}speak [語言]`",
         "medal": "`{{prefix}}medal [medal_id]`或是`{{prefix}}medal`\n例如：`{{prefix}}medal darkmagirl`會是**Dark Magician Girl**徽章",
         "drawcards": "`{{prefix}}抽牌`",
-        "blackjack": "`{{prefix}}blackjack 50`最小賭注是10，最大是2500",
+        "blackjack": "",
         "alignment": "`{{prefix}}alignment`或是`{{prefix}}alignchart`",
         "exchange": "`{{prefix}}exchange [數量] [目標貨幣代碼]` \n例如：`{{prefix}}exchange 28 DUT`會把28個紅寶石轉成DueUtil的貨幣",
         "slots": "`{{prefix}}slots [賭注(可賭可不賭)]`",
