@@ -401,7 +401,7 @@
         "speak": "`{{prefix}}lang [език]` или `{{prefix}}speak [език]`",
         "medal": "`{{prefix}}medal [medal_id]` или `{{prefix}}medal`\n Например: `{{prefix}}medal darkmagirl` за медал **Dark Magician Girl**.",
         "drawcards": "",
-        "blackjack": "`{{prefix}}blackjack 50` Минималнаят залок - 10, максималнаят - 2500.",
+        "blackjack": "",
         "alignment": "`{{prefix}}alignment` или  `{{prefix}}alignchart`",
         "exchange": "`{{prefix}}exchange [Номер] [точната сума и име на валутата]`\nПример: `{{prefix}}exchange 28 DUT` Обменя 28 Рубини за DueUtil кредити.",
         "slots": "`{{prefix}}slots [залог(незадължителен)]`",
