@@ -401,7 +401,7 @@
         "speak": "`{{prefix}}lang [language]` atau `{{prefix}}speak [language]`",
         "medal": "`{{prefix}}medal [medal_id]` atau hanya `{{prefix}}medal`\n Contoh: `{{prefix}}medal darkmagirl` untuk Medali **Dark Magician Girl**.",
         "drawcards": "`{{prefix}}drawcards`",
-        "blackjack": "`{{prefix}}blackjack 50` Taruhan minimumnya adalah 10, dan maksimumnya 2500.",
+        "blackjack": "",
         "alignment": "`{{prefix}}alignment` atau  `{{prefix}}alignchart`",
         "exchange": "`{{prefix}}exchange [Amount] [Destinasi Kode Mata Uang]` \ne.g `{{prefix}}exchange 28 DUT` Tukar 28 Rubi ke DueUtil Credits.",
         "slots": "",
