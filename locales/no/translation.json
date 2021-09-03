@@ -401,7 +401,7 @@
         "speak": "`{{prefix}}lang [language]` eller `{{prefix}}snakker [language]`",
         "medal": "`{{prefix}}medalje [medal_id]` eller kun `{{prefix}}medale`\n For eksempel: `{{prefix}}medal darkmagirl` for **Dark Magician Girl** medal.",
         "drawcards": "`{{prefix}}drawcards`",
-        "blackjack": "`{{prefix}}blackjack 50` Minimum bet er 10, maks er 2500.",
+        "blackjack": "",
         "alignment": "`{{prefix}}alignment` eller `{{prefix}}alignchart`",
         "exchange": "`{{prefix}}exchange [Amount] [Destination Currency Code]` \nf.eks `{{prefix}}exchange 28 DUT` Exchanges 28 Rubines into DueUtil Credits.",
         "slots": "",
