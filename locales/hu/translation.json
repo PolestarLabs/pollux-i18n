@@ -401,7 +401,7 @@
         "speak": "`{{prefix}}lang [nyelv]` or `{{prefix}}speak [nyelv]`",
         "medal": "`{{prefix}}medal [medal_id]` vagy csak `{{prefix}}medal`\nPéldául: `{{prefix}}medal darkmagirl` a **Dark Magician Girl** éremhez.",
         "drawcards": "",
-        "blackjack": "`{{prefix}}blackjack 50` A legkisebb tét 10, a legnagyobb 2500.",
+        "blackjack": "",
         "alignment": "`{{prefix}}alignment` vagy  `{{prefix}}alignchart`",
         "exchange": "",
         "slots": "`{{prefix}}slots [tét(nem kötelező)]",
