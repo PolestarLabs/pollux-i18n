@@ -159,9 +159,11 @@
 		"marketplace": "",
 		"multi": "",
 		"errands": "",
-		"hangmaid": ""
+		"hangmaid": "",
+		"tag": ""
 	},
 	"usage": {
+		"tag": "",
 		"hangmaid": "",
 		"errands": "",
 		"multi": "",
