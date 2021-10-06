@@ -23,6 +23,8 @@
         "SR": "Sangat Langka",
         "UR": "Luar Biasa Langka",
         "thevoid": "hampa",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "Koin Lomba",
         "evToken_plural": "Koin Lomba",
         "lootbox": "Kotak Jarahan",
