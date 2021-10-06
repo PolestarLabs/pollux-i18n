@@ -23,6 +23,8 @@
         "SR": "Szuper Ritka",
         "UR": "Ultra Ritka",
         "thevoid": "",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "",
         "evToken_plural": "",
         "lootbox": "",
