@@ -23,6 +23,8 @@
         "SR": "Super Sjelden",
         "UR": "Ultramokker Sjeldne",
         "thevoid": "ugyldig",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "Arrangement kode",
         "evToken_plural": "Hendelse symbol",
         "lootbox": "Lootbox",
