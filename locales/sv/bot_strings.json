@@ -23,6 +23,8 @@
         "SR": "Super sällsynta",
         "UR": "Ultra sällsynta",
         "thevoid": "ogiltig",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "Händelse token",
         "evToken_plural": "Händelse Tokens",
         "lootbox": "Lootbox",
