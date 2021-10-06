@@ -23,6 +23,8 @@
         "SR": "Очень Редкое",
         "UR": "Невероятно Редкое",
         "thevoid": "не учитывать",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "Токен события",
         "evToken_plural": "Жетоны события",
         "lootbox": "Lootbox",
