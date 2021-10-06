@@ -23,6 +23,8 @@
         "SR": "Super Rar",
         "UR": "Ultra Rar",
         "thevoid": "vid",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "",
         "evToken_plural": "",
         "lootbox": "",
