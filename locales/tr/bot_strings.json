@@ -23,6 +23,8 @@
         "SR": "Süper Nadir",
         "UR": "Ultra Nadir",
         "thevoid": "hiçlik",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "Etkinlik Jetonu",
         "evToken_plural": "Etkinlik Jetonları",
         "lootbox": "Define Sandığı",
