@@ -23,6 +23,8 @@
         "SR": "Супер рядък",
         "UR": "Ултра рядък",
         "thevoid": "Невалидно",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "Токен за събития",
         "evToken_plural": "",
         "lootbox": "Lootbox",
