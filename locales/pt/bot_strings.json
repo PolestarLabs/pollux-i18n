@@ -23,6 +23,8 @@
         "SR": "Tri Bagual",
         "UR": "Ultra Raro",
         "thevoid": "vazio",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "",
         "evToken_plural": "",
         "lootbox": "Caixa de saque",
