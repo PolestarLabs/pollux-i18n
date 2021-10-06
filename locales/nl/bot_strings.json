@@ -23,6 +23,8 @@
         "SR": "Super Zeldzaam",
         "UR": "Ultra Zeldzaam",
         "thevoid": "ongeldig",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "Gebeurtenis Token",
         "evToken_plural": "Evenement Tokens",
         "lootbox": "Lootbox",
