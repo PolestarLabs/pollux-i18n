@@ -23,6 +23,8 @@
         "SR": "Super Rzadki",
         "UR": "Ultra Rzadki",
         "thevoid": "pustka",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "Token Wydarzenia",
         "evToken_plural": "Tokeny Wydarzenia",
         "lootbox": "Skrzynka",
