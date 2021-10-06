@@ -23,6 +23,8 @@
         "SR": "スーパーレア",
         "UR": "超レア",
         "thevoid": "ボイド",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "イベントトークン",
         "evToken_plural": "イベントトークン",
         "lootbox": "",
