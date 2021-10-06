@@ -23,6 +23,8 @@
         "SR": "Super raro",
         "UR": "Ultra raro",
         "thevoid": "vacio",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "Token de evento",
         "evToken_plural": "Fichas de Evento",
         "lootbox": "Lootbox",
