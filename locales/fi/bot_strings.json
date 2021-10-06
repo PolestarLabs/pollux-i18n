@@ -23,6 +23,8 @@
         "SR": "Super Harvinainen",
         "UR": "Ultra Harvinainen",
         "thevoid": "tyhjyys",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "Tapahtuma Merkki",
         "evToken_plural": "Tapahtuma Merkit",
         "lootbox": "Yllätyslaatikko",
