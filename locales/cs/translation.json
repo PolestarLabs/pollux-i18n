@@ -401,7 +401,7 @@
         "speak": "`{{prefix}}lang [jazyk]` or `{{prefix}}speak [jazyk]`\n`",
         "medal": "`{{prefix}}medal [id_medaile]` nebo prostě `{{prefix}}medal`\nNapříklad: `{{prefix}}medal darkmagirl` pro **Dark Magician Girl** medaili.",
         "drawcards": "",
-        "blackjack": "`{{prefix}}blackjack 50` Minimální sázka je 10, maximální 2500.",
+        "blackjack": "",
         "alignment": "`{{prefix}}alignment` nebo `{{prefix}}alignchart`",
         "exchange": "`{{prefix}}exchange [množství] [kód měny k vyměnění]` např. `{{prefix}}exchange 28 DUT` Vymění 28 Rubínů za kredity DueUtil.",
         "slots": "`{{prefix}}slots [sázka(dobrovolná)]`",

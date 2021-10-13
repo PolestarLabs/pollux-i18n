@@ -401,7 +401,7 @@
         "speak": "",
         "medal": "",
         "drawcards": "",
-        "blackjack": "`{{prefix}}blackjack 50` Đặt cược tối thiểu là 10, tối đa là 2500.",
+        "blackjack": "",
         "alignment": "",
         "exchange": "",
         "slots": "",

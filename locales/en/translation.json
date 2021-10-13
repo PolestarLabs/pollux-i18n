@@ -57,7 +57,7 @@
         "decon": "{{user}} is decontaminating themself.",
         "decon2": "{{user}} is decontaminating {{user2}}.",
         "cancer": "{{user}} is inspecting this channel's chance of cancer.",
-        "geiger": ":radioactive: According to the Geiger counter, this channel's cancer potential is **{{percentage}}%** with **{{radiation}}μSv/h** "
+        "geiger": ":radioactive: According to the Geiger counter, this channel's cancer potential is **{{percentage}}%** with **{{radiation}}μSv/h**"
     },
     "misc": {
         "memberSince": "{{target}} has been a member since: {{joinedstamp}}",
@@ -401,7 +401,7 @@
         "speak": "`{{prefix}}lang [language]` or `{{prefix}}speak [language]`",
         "medal": "`{{prefix}}medal [medal_id]` or just `{{prefix}}medal`\n For example: `{{prefix}}medal darkmagirl` for the **Dark Magician Girl** medal.",
         "drawcards": "`{{prefix}}drawcards`",
-        "blackjack": "`{{prefix}}blackjack 50` Minimum bet is 10, maximum is 2500.",
+        "blackjack": "",
         "alignment": "`{{prefix}}alignment` or `{{prefix}}alignchart`",
         "exchange": "`{{prefix}}exchange [Amount] [Destination Currency Code]` \ne.g `{{prefix}}exchange 28 DUT` Exchanges 28 Rubines into DueUtil Credits.",
         "slots": "",

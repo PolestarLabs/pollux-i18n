@@ -401,7 +401,7 @@
         "speak": "`{{prefix}}lang [dil]` ya da `{{prefix}}speak [dil]`",
         "medal": "`{{prefix}}medal [medal_id]` ya da sadece `{{prefix}}medal`\nÖrneğin: **Dark Magician** madalyası için `{{prefix}}medal darkmagirl` ",
         "drawcards": "`{{prefix}}drawcards`",
-        "blackjack": "`{{prefix}}blackjack 50` asgari bahis 10, azami bahis ise, 2500.",
+        "blackjack": "",
         "alignment": "`{{prefix}}alignment` ya da  `{{prefix}}alignchart",
         "exchange": "`{{prefix}}exchange [Adet] [İstenilen döviz kodu]`\nÖrneğin: `{{prefix}}exchange 28 DUT` 28 Rubini DueUtil kredisine dönüştürür.",
         "slots": "`{{prefix}}slots [bet(isteğe bağlı)]",

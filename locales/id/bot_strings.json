@@ -23,6 +23,8 @@
         "SR": "Sangat Langka",
         "UR": "Luar Biasa Langka",
         "thevoid": "hampa",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "Koin Lomba",
         "evToken_plural": "Koin Lomba",
         "lootbox": "Kotak Jarahan",
@@ -771,7 +773,7 @@
             "jades_desc": " *Crafting \"mata uang\", aku menggunakan Permata Faint-Teal ini - jikalau tidak berharga - bisa digunakan membuat barang-barang khusus untuk kalian!\n        Bisa di peroleh dari Lootboxes, menghancurkan item, donasi, atau langsung membelinya.",
             "sapphires_desc": "*Mata Uang Premium, potongan biru-gelap dari Permata Safir terbaik, digunakan untuk craft item spesial atau dapat dibelanjakan berbagai item eksklusif.*\n         Dapat di peroleh dari donasi, membeli, dan dari event spesial. Kamu akan mendapatkan Safir gratis dari setiap 200 dan 365 rentetan harian, dan juga bisa di dapatkan dari Kotak Luar Biasa Langka/Ultra Rare Lootboxes dengan persentase 0.1%.",
             "lootboxes_desc": "*Peti Spesial yang berisi berbagai item kece seperti Latar Belakang, Medali, Rubi, dan Bungkusan Stiker*.\n        Hanya dapat di peroleh dari naik level atau jarahan acak/random drops yang mana bisa di dapatkan bergantung dengan aktifitas chat.\n\n         **`⚠ Spamming yang di sengaja untuk menyalahgunakan Loot Drops, cheat atau pertukaran item dengan akun alternatif akan mengarah pada banning dari Pollux dan beberapa bot lain.`** \n",
-            "end": "\n**Daftar keseluruhan perintah dapat di temukan di <https://pollux.gg/commands>**\n\nCek partner kami di **<https://pollux.gg/partners>**\nLihat atau ajukan karya seni fans di **<https://pollux.gg/fanart>**\nLihat profil publikmu di **<https://pollux.gg/profile/me>**\n\n**Kosmetik**\nToko Latar Belakang **https://pollux.gg/bgshop**\nToko Medali **https://pollux.gg/medalshop**\nBengkel Kerajinan **https://pollux.gg/crafting**\nStiker Virtual **<https://pollux.gg/stickers>** (untuk stiker asli cek Support Server)\nInformasi Acara **<https://pollux.gg/events>**\n\nDukung aku di **<https://patreon.com/Pollux>** atau **<https://pollux.gg/donate>**\nIkuti aku di Twitter **<https://twitter.com/maidPollux>**\n\n---\n\n**Untuk hal lain, cek __Dashboard__: <https://pollux.gg/dashboard>**\nAtau gabung Server Support: **​ https://discord.gg/rEBCccS ​**\nUndang aku ke servermu **<https://pollux.gg/invite>**\n"
+            "end": ""
         }
     },
     "loot": {

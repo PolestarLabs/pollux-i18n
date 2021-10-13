@@ -401,7 +401,7 @@
         "speak": "`{{prefix}}lang [Sprache]` oder `{{prefix}}speak [Sprache]`",
         "medal": "`{{prefix}}medal [medal_id]` oder einfach ´{{prefix}}medal´\nZum Beispiel: `{{prefix}}medal darkmagirl` für die **Dark Magician Girl** Medaille.",
         "drawcards": "´{{prefix}}drawcards´",
-        "blackjack": "`{{prefix}}blackjack 50´ Der Minimumeinsatz ist 10, und der Höchste 2500",
+        "blackjack": "",
         "alignment": "`{{prefix}}alignment` oder `{{prefix}}alignchart`",
         "exchange": "`{{prefix}}exchange [Menge] [Währungscode]`\nZum Beispiel:  `{{prefix}}exchange 28 DUT` Wandelt 28 Rubine in DueUtil Währung um.",
         "slots": "´{{prefix}}slots [Einsatz(Optional)]´",

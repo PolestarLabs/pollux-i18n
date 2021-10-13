@@ -23,6 +23,8 @@
         "SR": "Super Sjelden",
         "UR": "Ultramokker Sjeldne",
         "thevoid": "ugyldig",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "Arrangement kode",
         "evToken_plural": "Hendelse symbol",
         "lootbox": "Lootbox",
@@ -771,7 +773,7 @@
             "jades_desc": " *Lag \"valuta\", så bruker jeg disse falske gems - ellers verdiløs - for å concocte spessielle gjenstander bare for deg!\n        Kan fås av Plynkasser, ødelegger gjenstander, donerer eller kjøper.",
             "sapphires_desc": "*Premiumvaluta, dypblå biter av de fineste sauedelsteiner, som brukes til å lage spesialvarer eller til å kjøpe valuta for eksklusive ting.\n        Kan kun fås med donasjoner, kjøp og fra spesielle hendelser. Du får en Gratis Safir med 200 og 365 Dailies, og det er en 0,1 % sjanse til å få en fra Ultra Sjeldne Lootboxes.",
             "lootboxes_desc": "*Spesialkister som inneholder mange godbiter som bakgrunner, medaler, Rubiner og Sticker Boosters*.\n        Kan kun fås ved å gå opp i nivå eller fra tilfeldige dråper, slippes basert på chatte aktivitet.\n\n         **`⚠ Intensivert Spamming for å tvinge vevsliper, juks, eller utveksling av gjenstander med Alt-kontoer vil få deg utestengt fra Pollux og andre botter også. ** \n",
-            "end": "\n**Den komplette listen over kommandoer kan du finne hos <https://pollux.gg/commands>\n\nSjekk ut våre partnere hos **<https://pollux.gg/partners>\nSe eller send fan-opprettet kunstverk på **<https://pollux.gg/fanart>**\nSe din offentlige profil på **<https://pollux.gg/profile/me>**\n\n**osmetikker**\nBakgrunnsseksjon **https://pollux. g/bgshop**\nMedal Butikk **(https://pollux.gg/medalshop**\narbeidsplass **https://pollux. g/laging**\nVirtuelle Stickere **<https://pollux.gg/stickers>** (for IRL stickers sjekk Support Server)\nHendelser informasjon **<https://pollux.gg/events>**\n\nStøtte meg på **<https://patreon.com/Pollux>** eller **<https://pollux.gg/donate>**\nFølg meg på Twitter **<https://twitter.com/maidPollux>**\n\n---\n\n**For noe annet kan du følge, sjekk __Dashboard__: <https://pollux.gg/dashboard>**\neller bli med i min brukerstøtteserver: **:/https://discord. g/rEBCccS ====**\nInviter meg til serveren din på **<https://pollux.gg/invite>**\n"
+            "end": ""
         }
     },
     "loot": {

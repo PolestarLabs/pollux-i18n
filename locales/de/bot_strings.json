@@ -23,6 +23,8 @@
         "SR": "Sehr Selten",
         "UR": "Super selten ",
         "thevoid": "nichts",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "Event-Token",
         "evToken_plural": "Event-Token",
         "lootbox": "Lootbox",
@@ -456,7 +458,7 @@
                 ""
             ],
             "firstDaily": "",
-            "dailyNope": "{{result}}! Hey! Du hast deinen Preis heute schon erhalten!\nDu musst noch **{{remaining}}** warten, bevor du erneut einen Preis erhälst!"
+            "dailyNope": "Hmm? Sieht so aus, als ob du heute bereits deine Boni erhalten hast. Du kannst mehr **{{remaining}}** bekommen"
         },
         "toggle": {
             "disabledSer": "Schade, das **{{module}}** Modul wurde **Globally** deaktiviert.\nWie gemein...\n",
@@ -771,7 +773,7 @@
             "jades_desc": " *Crafting \"Währung\" Ich benutze diese schwachen Edelsteine - sonst wertlos - um spezielle Gegenstände für dich zu schnüren!\n        Kann von Lootboxen erhalten werden, zerstöre Gegenstände, spenden oder kaufen.",
             "sapphires_desc": "*Premium-Währung, tiefblaue Stücke der feinsten Saphir-Edelsteine, die zur Herstellung von Sondergegenständen oder als Kaufwährung für exklusive Gegenstände verwendet werden.\n        Kann nur mit Spenden, Einkauf und von Sonderveranstaltungen bezogen werden. Du erhältst einen kostenlosen Saphir alle 200 und 365 Dailies, und es gibt eine 0.1% Chance, einen von Ultra Seltene Lootboxen zu bekommen.",
             "lootboxes_desc": "*Spezialtruhen mit vielen Goodies wie Hintergründe, Medaillen, Rubinen und Sticker-Boosters*.\n        Du kannst nur das Leveling auf oder von zufälligen Tropfen erhalten, Tropfen entstehen aufgrund von Chataktivitäten.\n\n         **`⚠ Vorsätzliches Spamming um Beute Drops zu erzwingen oder den Austausch von Gegenständen mit Alt-Accounts wird dich auch von Pollux und anderen Bots gebannt. ** \n",
-            "end": "\n**Die komplette Liste der Befehle finden Sie unter <https://pollux.gg/commands>** **\n\nSchau dir unsere Partner unter **<https://pollux.gg/partners>**\nan oder schicke die von Fans erstellten Kunstwerke unter **<https://pollux.gg/fanart>**\nSiehe dein öffentliches Profil unter **<https://pollux.gg/profile/me>**\n\n** \n\n **Kosmetiks**\nBackground Shop **https://pollux. g/bgshop**\nMedaillen-Shop **https://pollux.gg/medalshop**\nHerstellungswerkstatt **https://pollux. g/crafting**\nVirtuelle Aufkleber **<https://pollux.gg/stickers>** (für IRL-Aufkleber überprüfen Sie den Support-Server)\nEreignisinformation **<https://pollux.gg/events>**\n\nUnterstützen Sie mich unter **<https://patreon.com/Pollux>** oder **<https://pollux.gg/donate>**\nFolgen Sie mir auf Twitter **<https://twitter.com/maidPollux>**\n\n---\n\n**Für alles andere überprüfe die __Dashboard__: <https://pollux.gg/dashboard>**\noder betrete meinen Support-Server: ** https://discord. g/rEBCccS **\nLade mich auf deinen Server unter **<https://pollux.gg/invite>**\n ein"
+            "end": ""
         }
     },
     "loot": {

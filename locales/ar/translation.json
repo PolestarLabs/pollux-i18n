@@ -401,7 +401,7 @@
         "speak": "`{{prefix}}Lang [language]` أو `{{prefix}}يتكلم [language]`",
         "medal": "`{{prefix}}ميدالية [medal_id]` أو فقط `{{prefix}}ميدالية`\n على سبيل المثال: `{{prefix}}ميدالية الظلامة` لميدالية **الفتاة السحرية المظلمة**.",
         "drawcards": "`{{prefix}}بطاقة رسوم`",
-        "blackjack": "{{prefix}}الرهان الأدنى هو 10، الحد الأقصى هو 2500.",
+        "blackjack": "",
         "alignment": "'محاذاة{{prefix}}` أو '{{prefix}}محاذاة الرسم البياني`",
         "exchange": "مبادلة{{prefix}} [Amount] [مقصد رمز العملة]` \nعلى سبيل المثال '{{prefix}}تبادل 28 DUT` تبادل 28 روبينز إلى رصيد DueUtil.",
         "slots": "",

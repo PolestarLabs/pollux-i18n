@@ -23,6 +23,8 @@
         "SR": "超稀有",
         "UR": "超超稀有",
         "thevoid": "無效",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "",
         "evToken_plural": "",
         "lootbox": "寶箱",

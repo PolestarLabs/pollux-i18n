@@ -23,6 +23,8 @@
         "SR": "수퍼 레어",
         "UR": "울트라 레어",
         "thevoid": "허공",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "",
         "evToken_plural": "",
         "lootbox": "전리품 상자",
