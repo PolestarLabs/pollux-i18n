@@ -23,7 +23,7 @@
         "mp_abort_player": "",
         "switch_to_singleplayer": "",
         "mp_no_players": "",
-        "mp_players_list": "",
+        "mp_players_list": "**Время вышло!** Пора начинать игру.",
         "round_no": "",
         "bot_shame": "",
         "bot_megashame": "",
@@ -31,7 +31,7 @@
         "victor_tokai": "",
         "victor": "",
         "victor_gambit": "",
-        "gambit": "",
+        "gambit": "<@{{player.id}}> **Бонусный Раунд:** Совершите последний выстрел и в случае успеха - заберёте 150% выйгрыша. Играем?",
         "gambit_prompt": "",
         "gambit_pre": "",
         "gambit_anytime": "",
@@ -39,7 +39,7 @@
         "hes_ded_jim": "",
         "mp_round_end": "",
         "mp_round_results": "",
-        "mp_round_results_died": "",
+        "mp_round_results_died": "{{ diedInRound.name }} проиграл. Покойся с миром.",
         "mp_round_results_no_dead": ""
     },
     "flags": {
