@@ -401,7 +401,7 @@
         "speak": "`{{prefix}}lang [language]` ou `{{prefix}}speak [language]`\n`",
         "medal": "`{{prefix}}medal [id_médaille]` ou juste `{{prefix}}medal`\nPar exemple: `{{prefix}}medal darkmagirl` pour la médaille **Dark Magician Girl**",
         "drawcards": "",
-        "blackjack": "`{{prefix}}blackjack 50` La mise minimale est de 10 Rubines, le maximum est de 2500.",
+        "blackjack": "",
         "alignment": "␣`{{prefix}}alignment` ou  `{{prefix}}alignchart`",
         "exchange": "`{{prefix}}exchange [Amount] [Code de la Monnaie de destination]` Exemple: `{{prefix}}exchange 28 DUT` Echange 28 Rubines contre des DueUtil Crédits.",
         "slots": "`{{prefix}}slots [pari(optionnel)]`",

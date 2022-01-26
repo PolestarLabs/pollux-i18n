@@ -23,6 +23,8 @@
         "SR": "Süper Nadir",
         "UR": "Ultra Nadir",
         "thevoid": "hiçlik",
+        "EVT": "",
+        "EVT_plural": "",
         "evToken": "Etkinlik Jetonu",
         "evToken_plural": "Etkinlik Jetonları",
         "lootbox": "Define Sandığı",
@@ -771,7 +773,7 @@
             "jades_desc": " *“Döviz” üretirken, özel eşyaları hazırlamak amacıyla -aksi takdirde değersiz- bu soluk-mavisi mücevherleri  kullanıyorum sırf senin için!*\n        Define Sandıklarından, eşya yok ederek, bağış yapmakla, ya da satın almakla elde edilebilir.",
             "sapphires_desc": "*Seçkin döviz, en kaliteli Şapir Mücevherlerinin koyu-mavi parçaları, özel eşyaları üretmek için ya da özel şeyleri almak için para birimi olarak kullanılır.*\n        Sadece bağış yaparak, satın alarak, ve özel etkinliklerden elde edilebilir. Her 200. ve 365. günlüklerinde Beleş Şapir kazanırsın, ve Ultra Nadir Define Sandıklarından %0.1 şansla düşürebilirsin.",
             "lootboxes_desc": "*Arkaplan, Madalyon, Rubin ve Sticker Booster gibi birçok ganimetler bulunduran özel kutular*\n        Sadece seviye atlayarak ya da rastgele droplardan elde edilebilir. Droplar sohbet etkinliğine bağlı olarak gerçekleşir.\n\n         **`⚠ Define Sandığı düşürmek için Kasten Spam yapmak, hile yapmak ya da alt hesaplarınla eşya değiş-tokuşu yapmak seni Polluxtan ve diğer botlardan banlayacaktır.**\n",
-            "end": "\n**Komutların tam listesi <https://pollux.gg/commands> adresine bulunabilir.**\n\n**<https://pollux.gg/partners>** Adresinde Partnerlerimize göz atın\n**<https://pollux.gg/fanart>** Adresinde fan artlarınızı göster ya da gönder\n**<https://pollux.gg/profile/me>** Adresinde Herkese açık profilini bak\n\n**Kozmetikler**\nArkaplan Dükkânı **https://pollux.gg/bgshop**\nMadalyon Dükkânı **https://pollux.gg/medalshop**\nÜretim Atölyesi **https://pollux.gg/crafting**\nKanlı canlı Stickerlar **<https://pollux.gg/stickers>** (Gerçek Hayat Stickerları için Destek Sunucumuza göz atın)\nEtkinlik Malumatı **<https://pollux.gg/events>**\n\nBeni **<https://patreon.com/Pollux>** ya da **<https://pollux.gg/donate>** adreslerinden destekle\nBeni Twitterdan takip et **<https://twitter.com/maidPollux>**\n\n\n---\n\n**Başka herhangi bir şey için, __Dashboard__'a göz at: <https://pollux.gg/dashboard>**\nYa da destek sunucuma katıl: **​ https://discord.gg/rEBCccS ​**\n**<https://pollux.gg/invite>** Adresinde beni sunucuna davet et\n"
+            "end": ""
         }
     },
     "loot": {

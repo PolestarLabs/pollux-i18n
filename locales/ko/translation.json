@@ -401,7 +401,7 @@
         "speak": " `{{prefix}}lang [language]` 또는  `{{prefix}}speak [language]`",
         "medal": "`{{prefix}}medal [medal_id]` 또는 `{{prefix}}medal`\n예: `{{prefix}}medal darkmagirl` 에 대한 **Dark Magician Girl** 메달.",
         "drawcards": "",
-        "blackjack": "`{{prefix}}blackjack 50` 최소 베팅은 10이고 최대 값은 2500입니다.",
+        "blackjack": "",
         "alignment": "␣`{{prefix}}alignment` 또는 `{{prefix}}alignchart`",
         "exchange": "`{{prefix}}exchange [양] [도착 통화 코드]` \n예: `{{prefix}}exchange 28 DUT` Exchanges 28 Rubines into DueUtil Credits.",
         "slots": "",

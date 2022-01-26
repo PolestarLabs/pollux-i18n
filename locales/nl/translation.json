@@ -401,7 +401,7 @@
         "speak": "`{{prefix}}lang [language]` of `{{prefix}}spreek [language]`",
         "medal": "`{{prefix}}medaille [medal_id]` of gewoon `{{prefix}}medaille`\n Bijvoorbeeld: `{{prefix}}medaille donkermakerij voor de **Donkere Magician Meis** medaille.",
         "drawcards": "`{{prefix}}trekkaarkaarten`",
-        "blackjack": "`{{prefix}}blackjack 50` Minimum gok is 10, maximum is 2500.",
+        "blackjack": "",
         "alignment": "`{{prefix}}uitlijning` of `{{prefix}}uitlijnen.`",
         "exchange": "`{{prefix}}exchange [Amount] [Bestemming Currency Code]` \ne.g `{{prefix}}exchange 28 DUT` Exchanges 28 Rubines in DueUtil Credits.",
         "slots": "",

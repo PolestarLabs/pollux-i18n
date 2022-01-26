@@ -401,7 +401,7 @@
         "speak": "`{{prefix}}lang [idioma]` ou `{{prefix}}speak [idioma]`",
         "medal": "`{{prefix}}medal [id_da_medalha]` ou apenas `{{prefix}}medal`\n Por exemplo: `{{prefix}}medal darkmagirl` para a medalha **Dark Magician Girl**",
         "drawcards": "`{{prefix}}drawcards`",
-        "blackjack": "`{{prefix}}blackjack 50` Aposta mínima é 10, máxima 2500.",
+        "blackjack": "",
         "alignment": "`{{prefix}}alignment` ou `{{prefix}}alinhamento`",
         "exchange": "`{{prefix}}exchange [Quantidade] [Código da Moeda de Destino]`.\nEx.: `{{prefix}}exchange 28 DUT` troca 28 Rubines por Créditos DueUtil.",
         "slots": "`{{prefix}}slots [aposta(opcional)]`",
