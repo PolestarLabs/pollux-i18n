@@ -70,7 +70,7 @@
         "ongoing": "Attention mon cher, on joue déjà une partie là!",
         "newgame": "C'est le moment de jouer au blackjack~ ! Je pense que tu connais les règles, c'est parti!",
         "result": "Résultat:",
-        "bust": "",
+        "bust": "Bust",
         "youwin": "",
         "youlose": "",
         "hit": "Réponds `hit` pour tirer une autre carte,␣",
