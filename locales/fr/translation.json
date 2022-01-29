@@ -416,7 +416,7 @@
         "eggtrade": "",
         "lewd": "",
         "marry": "Le mariage dépend directement sur `{{prefix}}craft`, car vous avez besoin d'une bague pour pouvoir proposer. \n\nPour marier votre aimé(e), fais `{{prefix}}marry @user [ring]`. Il existe 4 rangs de bagues pour vanter comment chic est ton mariage. Chaqun est fait d'un bijou différent. Au futur, les rangs supérieurs vont donner plus de points d'amour qu'ils peuvent dépenser ensemble. \n\nExemple d'utilisation: `{{prefix}}marry @quelqu'un rubine` pour proposer avec une bague de Rubines.\n\nBesoin des permissions <<Intégrer des liens>>, Gérer les messages>>, et <<Ajouter des réactions>> ainsi qu' <<Utiliser des émojis externes>>.",
-        "craft": "",
+        "craft": "`{{prefix}}craft [code de l'objet]`\n Tu peux retrouver le code des objets et toutes leurs informations sur http://pollux.gg/crafting.\n\nPour fabriquer un objet, tu as besoin de posséder tous les matériaux requis. Certains matériaux doivent être fabriqués pour être disponibles, ceux-ci ne sont pas automatiquement fabriqués lorsqu'un objet de niveau supérieur est créé.",
         "divorce": "`{{prefix}}divorce` Pour voir une liste de candidats; outrement, tes époux et épouse. \n`{{prefix}}divorce [@user || Discord ID]` Pour divorcer cette personne."
     },
     "logs": {
@@ -619,7 +619,7 @@
             "ongoing": "Attention mon cher, on joue déjà une partie là!",
             "newgame": "C'est le moment de jouer au blackjack~ ! Je pense que tu connais les règles, c'est parti!",
             "result": "Résultat:",
-            "bust": "",
+            "bust": "Bust",
             "youwin": "D'accord, d'accord, tu gagnes pour cette fois...",
             "youlose": "HAHA! J'ai gagné~ !!",
             "hit": "Réponds `hit` pour tirer une autre carte,␣",
