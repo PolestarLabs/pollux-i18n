@@ -28,12 +28,12 @@
         "evToken": "Jeton d’événement",
         "evToken_plural": "Jeton d’événement",
         "lootbox": "Lootbox",
-        "lootbox_plural": "Des lootbox",
+        "lootbox_plural": "Lootbox",
         "consumable": "Consommable",
         "consumable_plural": "Consommables",
         "junk": "Camelote",
         "junk_plural": "Camelote",
-        "key": "Articles clés",
+        "key": "Éléments clés",
         "material": "Matériel",
         "material_plural": "Matériaux",
         "boosterpack": "Booster",
@@ -44,7 +44,7 @@
         "sticker_plural": "Collants",
         "background": "Fond d'écran",
         "background_plural": "Bannières",
-        "EXP": "",
+        "EXP": "Progression d'XP",
         "PSM": "",
         "PSM_plural": ""
     },
@@ -65,9 +65,9 @@
         "res": "Résultat",
         "announcement": "Annonce",
         "first": "1er",
-        "second": "2ème",
-        "third": "3ème",
-        "fourth": "4ème",
+        "second": "2ᵉ",
+        "third": "3ᵉ",
+        "fourth": "4ᵉ",
         "fifth": "5ème",
         "infinite": "Infini",
         "none": "Aucun",
@@ -290,7 +290,7 @@
         "discoin": {
             "links": "Liens pertinents:",
             "list": "",
-            "graphs": "",
+            "graphs": "Graphiques en temps réel",
             "guide": "Manuel d’utilisation",
             "tax": "Informations fiscales",
             "tax_desc": "Taxe d'échange : **{{exchange}}%**\nImpôt sur le revenu : **{{income}}%**\nTaxe de transfert : **{{transfer}}%**",
@@ -299,12 +299,12 @@
             "receiptnoDM": "Je ne pouvais pas le livrer en privé, donc voici votre reçu:",
             "takedis": "Gardez ce code au cas où ~c'est la merde~",
             "invalidCurr": "Cette monnaie n'existe pas!",
-            "debt": "",
+            "debt": "Tu ne peux pas échanger de dette, échange au moins 1 Rubine !",
             "zero": "Échangez au moins 1 Rubine.",
             "perMin": "Le minimum est de {{perMin}} Rubines par transaction.",
             "perMax": "Le maximum par transaction est de {{perMax}} Rubines.",
             "dailyMax": "Vous avez atteint le maximum quotidien de {{dailyMax}} Rubines.",
-            "unreachable": ""
+            "unreachable": "Discoin n'a pas pu être atteint, réessaye plus tard."
         },
         "langIntro": {
             "global": "D'acc, je vais désormais parler {{LANGUAGE}} dans ce serveur. {{LANGJOKE}}",
@@ -315,13 +315,13 @@
             "persotexUpdate": "Tout est bon! Ton texte personnel est désormais: \n {{pstext}} \n Utilise `{{prefix}}profile` pour voir ce joli ~~quoi que~~ profil. Hehee~ "
         },
         "gift": {
-            "noTarget": "",
-            "noSelf": "",
+            "noTarget": "Tu dois mentionner qui doit recevoir ceci !",
+            "noSelf": "Ce serait tellement plus logique et sympa d'offrir ce cadeau à quelqu'un d'autre, plutôt qu'à toi-même !",
             "invEmpty": "Il a l'air plutôt vide ici...",
-            "invEmptyGive": "",
-            "inv>1": "",
-            "inv<amt": "",
-            "sent": ""
+            "invEmptyGive": "Tu n'as pas encore de cadeaux, pourquoi ne pas en emballer quelques-uns ?",
+            "inv>1": "Tu as {{count}} cadeaux, tu dois préciser lequel donner !",
+            "inv<amt": " {{count}} c'est plus que les cadeaux que tu possèdes... Réessaie à nouveau.",
+            "sent": "🎁 <@{{sender}}> a envoyé **un cadeau** à <@{{target}}>"
         },
         "trade": {
             "exchangeWhat": "Que veux-tu donner en échange?",
@@ -365,14 +365,14 @@
             "quotes": [
                 [
                     "Oh. _Oh non._",
-                    ""
+                    "VOS HOROSCOPES NE SONT PAS EN ALIGNEMENT, VEUILLEZ REFRÉNER TOUT TYPE DE CONTACT IMMÉDIATEMENT."
                 ],
                 [
                     "Il n'y avait qu'une légère hésitation avant ce glissement vers la gauche.",
                     "Bien que vous soyez familier l'un avec l'autre, vous ne voulez pas vous familiariser _de ce genre_."
                 ],
                 [
-                    "",
+                    "Le couple pourrait fonctionner de la même manière qu'une tomate va bien dans une salade.",
                     "Hé! Vous ne vous détestez pas l'un l'autre! On se débrouille, n'est-ce pas?"
                 ],
                 [
@@ -396,7 +396,7 @@
                     ""
                 ],
                 [
-                    "",
+                    "Je l'expédie !",
                     ""
                 ],
                 [
@@ -410,7 +410,7 @@
             ]
         },
         "thx": {
-            "after": "",
+            "after": "{{userA}} a envoyé *\"Merci\"* à **{{userB}}**!\n{{userB}} a été remercié **{{totalTHX}}** fois.",
             "wipe": "",
             "noself": "Je préfère que vous remerciiez quelqu'un d'autre."
         },
@@ -442,23 +442,23 @@
         },
         "daily": {
             "insuranceConsumed": "",
-            "streakLost": "",
-            "noRestorerInfo": "",
-            "yesRestorerInfo": "",
+            "streakLost": "Oh noooo, tu as manqué le timing pour ton quotidien et ta série est maintenant perdue ! Mais t'inquiète, tu peux toujours utiliser un **Restoreur de Séries** pour revenir là où tu en étais avant ({{oldStreak}}) !",
+            "noRestorerInfo": "Tu peux fabriquer un restaurateur avec `{{prefix}}craft streakfix`",
+            "yesRestorerInfo": "Tu as un restaurateur dans ton inventaire ! Essaie `{{prefix}}use streakfix` pour l'utiliser !",
             "dailyBonus": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Bonjour ! Nous allons beaucoup nous amuser aujourd'hui ? Voici tes récompenses pour aujourd'hui :",
+                "T'es là ! Bon retour ! Ces récompenses n'attendaient plus que toi :",
+                "Quelqu'un a-t-il dormi sans mettre d'alarme à nouveau ? Eh bien, prends ceci :",
+                "Il était temps ! J'ai été si seule... Voici une petite motivation pour m'assurer que tu reviennes demain :",
+                "Bonjour~ Tu as bien dormi ? Moi non ! J'ai attendu toute la nuit pour te donner tout ça :",
+                "Salut, salut, salut !! Maid Pollux ici ! J'ai une livraison pour {{username}} :",
+                "J'aimerais bien que quelqu'un me donne des prix chaque jour à mon réveil. Je suppose que je peux le vivre à travers toi, alors s'il te plaît, apprécie ces récompenses pour moi :",
+                "Hé, voici tes trucs gratuits pour aujourd'hui ! Hé non... ils ne viennent pas de la poubelle, arrête de m'demander :",
+                "Ton solde a l'air un peu triste - nous allons changer ça ensemble ! Peut-être que cela aidera :",
+                "Waouh, c'est à ça que tu ressembles au réveil ? Ne réponds pas ! Prends ces récompenses et brosse tes cheveux :"
             ],
-            "firstDaily": "",
-            "dailyNope": "{{emoji}} Hop! Hop! Hop! Tu as déjà eu ton bonus quotidien! Le prochain étant dans: **{{remaining}}**"
+            "firstDaily": "Hé ! T'es nouveau ici... non ? Eh bien, tu peux revenir chaque jour pour recevoir des récompenses !",
+            "dailyNope": "{{emoji}} Hop ! Hop ! Hop ! Tu as déjà eu ton bonus quotidien ! Le prochain étant dans : **{{remaining}}**"
         },
         "toggle": {
             "disabledSer": "Le module **{{module}}** a été **globalement** désactivé.␣ ",
@@ -544,7 +544,7 @@
             "commendationLimit": ""
         },
         "timers_generic": {
-            "cooldown": "",
+            "cooldown": "Minute papillon ! Tu peux à nouveau faire ça dans {{remaining}}",
             "check_no": "",
             "check_yes": "",
             "noSelf": ""
@@ -580,14 +580,14 @@
             "success": ""
         },
         "give": {
-            "cooldown": "",
+            "cooldown": "Attends ! Tu peux à nouveau transférer dans {{remaining}}",
             "not2self": ""
         },
         "inventory": {
             "noSuchBox": "Eh bien, je ne peux pas voir cette boîte là et je suis sur que tu n'en vois rien aussi.",
             "noSuchBooster": "Je vois pas ce Booster dans ton inventaire. Tu l'as probablement perdu dans ce dégât.",
             "noSuchItem": "Je peux identifier une pléthore d'articles dans ton inventaire, sauf cet article particulier.",
-            "browsingBox": "Voici ton inventaire de **Coffres**\n*Ouvre-les pour recevoir des prix!*",
+            "browsingBox": "Ceci est ton inventaire de **Lootbox**\n*Ouvre-les pour recevoir pleins de trucs sympas !*",
             "browsingBooster": "Ceci est ton inventaire de **Boosters**\n*Tu peux les ouvrir pour obtenir des collants pour ton profil*",
             "browsingCONSUMABLE": "",
             "browsingJUNK": "",
@@ -781,17 +781,17 @@
         "suprareDrop": "",
         "ultraRareDrop": "J'arrive pas à y croire! C'est une Lootbox **ULTRA-RARE** ! Tu n'en verras sûrement plus jamais!",
         "lootDrop": [
-            "HEY TOUT LE MONDE! Une Lootbox vient d'apparaître dans ce salon!",
-            "WOAH! Une Lootbox! Vite, il faut la prendre!",
-            "Ah! On dirait qu'il y a une Lootbox par ici!",
-            "Désolé de vous interrompre... Mais quelqu'un a remarqué la Lootbox plantée là?",
-            "Sugoi! Regardez cette Lootbox que j'ai trouvée!",
+            "HEY TOUT LE MONDE ! Une Lootbox vient d'apparaître dans ce canal !",
+            "WOAH ! Une Lootbox ! Vite, il faut la prendre !",
+            "Ah ! On dirait qu'il y a une Lootbox par ici !",
+            "Désolé de vous interrompre... Mais quelqu'un a remarqué la Lootbox plantée là ?",
+            "Incroyable ! Regardez ce que j'ai trouvé !",
             ""
         ],
         "duplicate": "",
         "lootPick": "␣Vous avez tous **__20 Secondes__** pour la prendre! Ecrivez `{{prefix}}pick` pour avoir une chance de l'avoir!",
         "goesTo": "Le temps est écoulé! Voyons qui a gagné cette Lootbox...\n**Cette Lootbox va être mis en jeu entre:**",
-        "congrats": "Félicitations! Ce coffre a été ajouté à votre **inventaire**. Tu peux l'ouvrir par la commande `{{prefix}}lootbox`.",
+        "congrats": "Bravo ! Cette Lootbox a été rajoutée à ton **inventaire**. Tu peux l'ouvrir via la commande `{{prefix}}lootbox`.",
         "opening": "{{user}} a ouvert sa Lootbox...",
         "contains": "",
         "keep": "Garder",
