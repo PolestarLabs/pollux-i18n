@@ -23,7 +23,7 @@
         "mp_abort_player": "",
         "switch_to_singleplayer": "",
         "mp_no_players": "",
-        "mp_players_list": "",
+        "mp_players_list": "**Le temps est écoulé !** Commençons.",
         "round_no": "",
         "bot_shame": "",
         "bot_megashame": "",
@@ -39,7 +39,7 @@
         "hes_ded_jim": "",
         "mp_round_end": "",
         "mp_round_results": "",
-        "mp_round_results_died": "",
+        "mp_round_results_died": "{{ diedInRound.name }} était le perdant. RIP",
         "mp_round_results_no_dead": ""
     },
     "flags": {
