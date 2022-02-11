@@ -158,7 +158,7 @@
     "egghuntsuccess": "",
     "egghuntsuccess2": "",
     "egghuntsuccess3": "T'as un total de **{{X}}** œufs avec toi.\n**{{Y}}** d'entre eux sont uniques.\n\nPlus d'infos sur : [Pollux Easter Event 2018] (https://pollux.gg/events/easter2018)",
-    "delaytrade": "",
+    "delaytrade": "Patience ! Tu peux échanger à nouveau des œufs dans {{remaining}} ",
     "wanttrade": "",
     "wanttrade2": "",
     "eggtradetitle": "",
