@@ -22,13 +22,13 @@
         "R": "Rare",
         "SR": "Extra Rare",
         "UR": "Ultra Rare",
-        "thevoid": "nul",
+        "thevoid": "vide",
         "EVT": "",
         "EVT_plural": "",
         "evToken": "Jeton d’événement",
         "evToken_plural": "Jeton d’événement",
         "lootbox": "Lootbox",
-        "lootbox_plural": "Lootbox",
+        "lootbox_plural": "Lootboxes",
         "consumable": "Consommable",
         "consumable_plural": "Consommables",
         "junk": "Camelote",
@@ -73,7 +73,7 @@
         "none": "Aucun",
         "reason": "Raison",
         "banned": "Exclus",
-        "kicked": "Ôté",
+        "kicked": "Exclu",
         "usage": "Utilisation",
         "module": "Module",
         "inst": "Instructions",
@@ -109,21 +109,21 @@
         "modLogs": "Registres de Modération",
         "actLogs": "Logs d'activités",
         "advLogs": "Registres Avancés",
-        "logChan": "Registres Générales",
-        "userJoin": "**{{user}}** s'est **joint** au serveur",
-        "userLeave": "**{{user}}** a **quitté** le serveur",
-        "messDel": "Un message a été **retiré** en {{channel}}",
+        "logChan": "Registres Généraux",
+        "userJoin": "**{{user}}** s'est **joint** au Serveur",
+        "userLeave": "**{{user}}** a **quitté** le Serveur",
+        "messDel": "Un message a été **retiré** dans {{channel}}",
         "messEdit": "{{user}} a **modifié** leur message en {{channel}}",
-        "newChan": "Un nouveau **salon** a été **créé**: {{channel}}",
-        "delChan": "Un **salon** a été **retiré**: {{channel}}",
-        "updtChan": "Le salon **{{channel}}** a été **révisé**",
+        "newChan": "Un nouveau **salon** a été **créé** : {{channel}}",
+        "delChan": "Un **salon** a été **retiré** : {{channel}}",
+        "updtChan": "Le canal **{{channel}}** a été **actualisé**",
         "newRole": "Un nouveau **rôle** a été **créé**: {{role}}",
-        "uptRole": "Les rôles de {{user}} ont été révisés",
-        "delRole": "Un **rôle** a été **effacé**: {{role}}",
-        "revokeBan": "L'exclusion de **{{user}}** a été retiré",
+        "uptRole": "Les rôles de {{user}} ont été actualisés",
+        "delRole": "Un **rôle** a été **effacé** : {{role}}",
+        "revokeBan": "L'exclusion de **{{user}}** a été retirée",
         "usrNick": "Dorénavant, **{{user}}** s'appelle **{{newuser}}**",
         "usrPhoto": "**{{user}} a changé son image de profil",
-        "usrRoles": "Rôles a été révisé pour {{user}}",
+        "usrRoles": "Rôles mis à jour pour l'utilisateur {{user}}",
         "gSets": "Les paramètres du serveur on été changés!"
     },
     "responses": {
@@ -133,7 +133,7 @@
             "disabledModule": ":no_entry_sign: Notre maître a déclaré {{module}} interdit ici. Dommage...",
             "genericInvalid": "Oh, oh... Commande invalide ;~;",
             "prefixChng": "D'accord, mon préfixe est maintenant {{prefix}}, essaye-le en utilisant `{{prefix}}stats`.␣",
-            "moderationNeeded": "Pardon, mais tu ne peux pas utiliser cet ordre. Tu as besoin du permission **Règler le Serveur** ou d'avoir un rôle d'administrateur, l'un ou l'autre. (En nommer un avec `{{prefix}}modrole [@Role])`",
+            "moderationNeeded": "Désolé, mais tu ne peux pas utiliser cette commande. Il te faut la permission **Administrer le Serveur** ou avoir un rôle de Mod/Admin (définis-en un avec `{{prefix}}modrole [@Role]`)",
             "chooseAmod": "Choisis un module s'il te plaît.",
             "kinNone": "Dans un premier temps, dis-moi qui je dois frapper. Avant que je te frappe à sa place.",
             "kin404": "Ouuuups, je n'arrive pas à trouver cette personne :< Il n'est pas déjà parti? En fait, existe-t-il? C'est pas ton imagination? T'ES SÛR???",
@@ -154,7 +154,7 @@
             "cantFindChannel": "Hmmm... Je n'ai pas pu trouver ce salon :/ Si tu n'est pas sûr, essaye d'utiliser #channel",
             "noChannelGiven": "Ok, et où est-ce que je vais répertorier ces activités? Sur ton visage? Donne-moi un salon au quel me connecter!",
             "emojiError": "Je n'ai pas pu ajouter cet Emoji. Vérifie les permissions d'ajoutement des réactions ou si l'Emoji est valide...",
-            "insuperms": "{{Imsorry}} Je ne peux pas faire ça pour toi si tu n'as pas le permission non plus.",
+            "insuperms": "{{imsorry}} Je ne peux pas faire ça pour toi, si toi-même tu n'en as pas la permission.",
             "not-a-NSFW-channel": "Eh oh! Rends ce salon NSFW d'abord, il y a des enfants par ici...",
             "unparsable": ""
         },
@@ -201,33 +201,33 @@
             "interjections": {
                 "acknowledged": [
                     "D'acc.",
-                    "Boum!",
+                    "Bon!",
+                    "D'accord.",
                     "D'acc.",
-                    "D'acc.",
-                    "Ça y est!",
-                    "Compris!",
-                    "Positive. / Positif.",
-                    "Pas pire!",
-                    "Super!",
-                    "OK!",
-                    "Tout prêt!",
-                    "Tout fait!",
+                    "Bien !",
+                    "Compris !",
+                    "Affirmatif.",
+                    "Bien !",
+                    "Super !",
+                    "OK !",
+                    "Tout est prêt !",
+                    "C'est terminé !",
                     "Fait."
                 ],
                 "yatta": [
-                    "Youpi!",
+                    "Youpi !",
                     "Ah ouais!",
-                    "Pas pire!",
-                    "Cool!",
-                    "Super!",
-                    "Génial!",
-                    "Super!",
-                    "C'est belle!",
-                    "Parfait!",
-                    "Fantastique!"
+                    "Bien !",
+                    "Cool !",
+                    "Joli !",
+                    "Génial !",
+                    "Super !",
+                    "Merveilleux !",
+                    "Parfait !",
+                    "Incroyable !"
                 ],
                 "gomenasai": [
-                    "Désolé,",
+                    "Je suis désolé.",
                     "C’est gênant,",
                     "Euh, désolé,",
                     "Pardonnez-moi,",
@@ -236,21 +236,21 @@
                     "Désolé,"
                 ],
                 "ohmy_positive": [
-                    "Hélas!",
+                    "Oh mince !",
                     "Oh!",
                     "Ah!",
                     "Regarde!",
                     "Sugoi!",
-                    "Youpi!",
+                    "Youpi !",
                     "Incroyable!"
                 ],
                 "ohmy_negative": [
-                    "Hélas!",
+                    "Oh mince !",
                     "Eeeuuuhh...",
                     "Oh...",
-                    "Oh non!",
-                    "Noooon!",
-                    "Bon sang!"
+                    "Oh non !",
+                    "Noooon !",
+                    "Bon sang !"
                 ]
             }
         },
@@ -258,7 +258,7 @@
             "didkik": ":boot: {{target}} S'est fait dégager d'ici.\n **Raison:** *{{reason}}* ",
             "autoroleunAdded": "Le rôle **{{role}}** a été supprimé d'Autoroles.",
             "modroleunAdded": "Le rôle **{{role}}** n'est plus un rôle Modérateur. Tu tentes un coup d'État?",
-            "incinerate": "J'ai viens de mettre feu à {{amt}} messages!",
+            "incinerate": "Je viens de bruler {{amt}} messages !",
             "roleAdded": "Compris, j’ai ajouté le rôle.",
             "noReason": "Raison non spécifiée",
             "didban": "J'ai demandé à {{target}} *poliment* de partir. **Raison:** *{{reason}}* Permettez-moi Svp de prendre un peu de temps et nettoyer leur gâchis."
@@ -280,7 +280,7 @@
             "cancelled": "Si tu ne veux pas équiper tes médailles maintenant, je te les garde au chaud en attendant~",
             "youSure": "Tu veux l'équiper ici?",
             "choose": "Choisis une médaille à équiper sur ton profil",
-            "success": "Magnifique! Tu as maintenant une nouvelle médaille sur ta carte de profil~",
+            "success": "Magnifique ! Tu as maintenant une toute nouvelle médaille dans ton profil~",
             "unequipSuccess": "Médaille déséquipée !",
             "unequipChoose": "Quelles médailles veux-tu enlever?",
             "unequipConfirm": "Tu veux déséquiper celle-ci?",
@@ -289,7 +289,7 @@
         },
         "discoin": {
             "links": "Liens pertinents:",
-            "list": "",
+            "list": "Liste des devises",
             "graphs": "Graphiques en temps réel",
             "guide": "Manuel d’utilisation",
             "tax": "Informations fiscales",
@@ -376,42 +376,42 @@
                     "Hé! Vous ne vous détestez pas l'un l'autre! On se débrouille, n'est-ce pas?"
                 ],
                 [
-                    "",
-                    ""
+                    "Ooh, quelle relation épicée. L'épice est peut-être de la farine, mais c'est toujours mieux que rien, non ?",
+                    "Quelques rendez-vous de plus et on verra peut-être des étincelles !"
                 ],
                 [
                     "Woah, presque un couple! ",
+                    "Chaque relation a toujours certains points à améliorer, je suppose."
+                ],
+                [
+                    "",
+                    "Hum, je resterais à regarder cette romance comme si c'était un film."
+                ],
+                [
+                    "On arrive enfin à un _terrain_ d'entente !",
                     ""
                 ],
                 [
                     "",
-                    ""
-                ],
-                [
-                    "",
-                    ""
-                ],
-                [
-                    "",
-                    ""
+                    "Arrête de te retenir et confie tes sentiments !"
                 ],
                 [
                     "Je l'expédie !",
-                    ""
+                    "Vous deux, vous aller tellement biiiien ensemble !"
                 ],
                 [
-                    "",
-                    ""
+                    "Hé bein, vous êtes presque _parfait_ l'un pour l'autre !",
+                    "Bon, lequel d'entre vous aura le bébé ?"
                 ],
                 [
-                    "",
-                    ""
+                    "LE COUPLE DE L'ANNÉE EST ARRIVÉ",
+                    "Des âmes sœurs ! Incroyable !"
                 ]
             ]
         },
         "thx": {
             "after": "{{userA}} a envoyé *\"Merci\"* à **{{userB}}**!\n{{userB}} a été remercié **{{totalTHX}}** fois.",
-            "wipe": "",
+            "wipe": "Ceci supprimera **tous** les points {{THX}} de {{user}}. **Es-tu certain de vouloir faire ça ?**",
             "noself": "Je préfère que vous remerciiez quelqu'un d'autre."
         },
         "divorce": {
@@ -433,7 +433,7 @@
         },
         "generic": {
             "inviteText": "Invite-moi sur ton serveur en cliquant [ICI]",
-            "selectIndex": "",
+            "selectIndex": "S'il te plait, réponds-moi avec le **numéro** de l'option que tu souhaites.",
             "cancel": "Changé d'idées? D'acc, à bientôt~",
             "noFundsBalance": "␣On dirait que tu ne peux pas te payer ça... Tu as {{number}} Rubines",
             "noFunds": "Pas assez de Rubines",
@@ -441,7 +441,7 @@
             "minus_rubines": "Je prends %R $t(keywords.RBN_plural) de ta compte okay~?"
         },
         "daily": {
-            "insuranceConsumed": "",
+            "insuranceConsumed": "Tu as manqué ta récompense quotidienne... mais t'inquiète pas !\n**Ton assurance a été consommée et ta progression est toujours en cours**\nIl te reste : **{{insuCount}}** assurances.\n*Assure-toi de l'appliquer de nouveau à ton quotidien avec `{{prefix}}use keepstreak daily`*",
             "streakLost": "Oh noooo, tu as manqué le timing pour ton quotidien et ta série est maintenant perdue ! Mais t'inquiète, tu peux toujours utiliser un **Restoreur de Séries** pour revenir là où tu en étais avant ({{oldStreak}}) !",
             "noRestorerInfo": "Tu peux fabriquer un restaurateur avec `{{prefix}}craft streakfix`",
             "yesRestorerInfo": "Tu as un restaurateur dans ton inventaire ! Essaie `{{prefix}}use streakfix` pour l'utiliser !",
@@ -511,7 +511,7 @@
             "inChan": "D'acc! Messages de bienvenue seront plantés dans **{{channel}}** "
         },
         "forFun": {
-            "thisShit": "",
+            "thisShit": "Jettes un œil à **cette merde**...",
             "saltLVL": "Le niveau de sel à {{target}} est de **{{amount}}%** {{emoji}} ",
             "booru404": "Oups, je n'ai rien pu trouver avec ces mots-clés. Essayes-en d'autres, mon chou!",
             "nsfw404": "Mec, ton porno est tellement bizarre que je l'ai trouvé nulle part. Essaye un truc moins chelou.",
@@ -522,7 +522,7 @@
             "leadUnap": "Si tu ne te vois pas affiché ici, écris `{{prefix}}profile` pour voir ton level. Peut être que t'es juste naze.",
             "position": "Ta position dans ce classement est",
             "usethisfor": "Tape |p!rank {{scope}}| pour {{srr}}",
-            "transmittedVc": "Transmis à ton salon auditoire!",
+            "transmittedVc": "Transmis à ton salon de voix !",
             "decon": "{{user}} sé décontamine !",
             "decon2": "{{user}} décontamine {{user2}} !",
             "cancer": "{{user}} inspecte le niveau de cancer du chat...",
@@ -547,11 +547,11 @@
             "cooldown": "Minute papillon ! Tu peux à nouveau faire ça dans {{remaining}}",
             "check_no": "",
             "check_yes": "",
-            "noSelf": ""
+            "noSelf": "Je parie que tu sais, que tu ne peux pas le faire à toi-même, pas vrai ?"
         },
         "crafting": {
             "craftingItem": "Fabrication d'`{{item_name}}`",
-            "craftedItem": "",
+            "craftedItem": "Fabriqué `{{item_name}}`",
             "noitem": "Je n'ai pas pu trouver cet article",
             "noitemlike": "",
             "gemsMissing": "",
@@ -562,7 +562,7 @@
             "didyoumean": "Je n'ai pas pu trouver cet article. Par hasard, veux-tu dire ceci?",
             "didyoumeanOne": "Quelque chose n'y va pas... Est-ce ce que tu cherches, ma caille?",
             "timeout": "",
-            "cancel": "",
+            "cancel": "Annulé ! Alors comme ça on me fait perdre mon temps ?!",
             "crafted": ""
         },
         "misc": {
@@ -581,7 +581,7 @@
         },
         "give": {
             "cooldown": "Attends ! Tu peux à nouveau transférer dans {{remaining}}",
-            "not2self": ""
+            "not2self": "Comment veux-tu te donner quelque chose à toi-même ?!"
         },
         "inventory": {
             "noSuchBox": "Eh bien, je ne peux pas voir cette boîte là et je suis sur que tu n'en vois rien aussi.",
@@ -594,12 +594,12 @@
             "browsingKEY": "",
             "browsingMATERIAL": "",
             "emptyJokes": [
+                "Remplis cet inventaire avec tes larmes parce qu'il est vide.",
                 "",
                 "",
-                "",
-                "",
+                "Rien à voir ici, circulez !",
                 "Cet inventaire contient: la déception.",
-                "",
+                "<Insérer un objet ici>",
                 "... Encore vide.",
                 "L'inventaire est vide, mais vous pouvez le remplir avec vos larmes.",
                 "T'es tellement optimiste si tu penses que plus d'articles vont simplement apparaître dans cet inventaire.",
@@ -609,17 +609,17 @@
                 "Vous ouvrez l'inventaire vide et fixe l'intérieur. La vide retourne votre regard.",
                 "Cet inventaire est maintenant plein de déception...",
                 "Vous fixez l'abîme, l'abîme vous fixe en retour.",
-                "",
+                "\"NOURRIS-MOI SEYMOUR\"",
                 "Vous ouvrez l'inventaire à la vue familière de rien. Oh comment elle a vous manqué!",
                 "Cet inventaire semble triste et défragé maintenant qu'il est vide.",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
+                "Rappelle-toi que quand tu regardes ton inventaire vide, ton inventaire lui aussi te regarde.",
+                "Cet inventaire était autrefois rempli de merveilleux trésors. Puis t'es arrivé...",
+                "Cet inventaire est en grève jusqu'à nouvel ordre",
+                "On entend le vent siffler d'un côté à l'autre de l'inventaire",
+                "Alors que tu ouvres ton inventaire vide, des d'âmes piégées s'en échappent dans un tourbillon d'hurlements... C'est probablement normal.",
+                "L'inventaire est vide, mais au moins son intérieur a vraiment l'air sympa avec sa doublure en velours et tout.",
+                "Il n'y a rien dans cet inventaire, mais imagine-toi toutes les choses qu'il POURRAIT y avoir dedans...",
+                "Même s'il n'y avait rien dans l'inventaire, en l'ouvrant, tu t'es fait submerger de confettis ! Wohoo !",
                 ""
             ]
         }
@@ -627,16 +627,16 @@
     "interface": {
         "generic": {
             "deleted": "",
-            "cancel": "",
+            "cancel": "Annulé !",
             "timeout": "Expiré!",
-            "cantAfford": "",
+            "cantAfford": "Ah, tu ne peux pas te le permettre... :(",
             "clicktoconfirm": "✔ pour confirmer votre choix, ✖ pour annuler.",
             "confirmDelete": "Affirmer la suppression?",
-            "alotWentOn": "",
-            "alreadyOwnThis": "",
-            "redactedLink": "",
-            "redactedMention": "",
-            "redacted": ""
+            "alotWentOn": "Beaucoup de choses se sont passées aujourd'hui...",
+            "alreadyOwnThis": "Hé, tu le possèdes déjà !",
+            "redactedLink": "LIEN CENSURÉ",
+            "redactedMention": "@MENTION CENSURÉE",
+            "redacted": "CENSURÉ"
         },
         "reminders": {
             "currentActive": "",
@@ -656,18 +656,18 @@
             "RRt": "",
             "BKt": "",
             "match": "",
-            "round": "",
-            "preround": "",
-            "team": "",
-            "winner": "",
-            "bracketX": ""
+            "round": "Tour",
+            "preround": "Tour Préliminaire",
+            "team": "ÉQUIPE {{X}}",
+            "winner": "Gagnant",
+            "bracketX": "Poule {{AB}}"
         },
         "synthfrag": {
             "magifrag": "",
             "disenchant": "",
             "cosmeticSynth": "",
-            "confirmSynth": "",
-            "nogemsforThis": ""
+            "confirmSynth": "Tu veux que je synthétise ça ?",
+            "nogemsforThis": "On dirait que tu n'as pas assez de gemmes pour cette synthèse..."
         },
         "booster": {
             "checkStickersAt": "Vérifiez vos autocollants et équipez-les au {{dashboard}}",
@@ -758,17 +758,17 @@
         "help": {
             "greetings": "",
             "basics": "",
-            "cmdlist": "",
-            "quick_getgo": "",
-            "quick_useful": "",
-            "quick_enjoy": "",
-            "quick_didntask": "",
+            "cmdlist": "LISTE DES COMMANDES",
+            "quick_getgo": "Commandes que tu dois savoir avant toute chose",
+            "quick_useful": " Commandes qui pourraient t'être utiles",
+            "quick_enjoy": "Commandes avec lesquelles tu peux t'amuser avec",
+            "quick_didntask": " Commandes que tu n'as pas demandées",
             "avail_cmd": "Commandes disponibles",
-            "avail_cmdlist": "",
+            "avail_cmdlist": "Liste des commandes actuellement disponibles et supportées ({{commandcount}}).",
             "notenough": "Cette minuscule boîte ne suffit-elle pas?",
-            "trythese": "",
-            "curr_info": "",
-            "currency_overview": "",
+            "trythese": "Essaie l'un de ceux-ci",
+            "curr_info": "Informations sur les devises",
+            "currency_overview": "Mon système de devises est relativement complexe et comporte plusieurs limitations et caractéristiques de protection. Chaque transaction est enregistrée et peut être retracée facilement, ce qui garantit que ton travail ne sera pas éclipsé par les tricheurs. Nous enregistrons plus de 30 000 transactions par jour.   \n        \n    • Tout le monde commence avec quelques **Jades** des **Rubines**, et avec une **Lootbox**.\n",
             "rubines_desc": "",
             "jades_desc": "",
             "sapphires_desc": "",
@@ -778,17 +778,17 @@
     },
     "loot": {
         "rareDrop": "Tu sais ce que c'est ? C'est une Lootbox **RARE** !",
-        "suprareDrop": "",
+        "suprareDrop": "{{interjection}} une Lootbox **SUPER RARE** !",
         "ultraRareDrop": "J'arrive pas à y croire! C'est une Lootbox **ULTRA-RARE** ! Tu n'en verras sûrement plus jamais!",
         "lootDrop": [
-            "HEY TOUT LE MONDE ! Une Lootbox vient d'apparaître dans ce canal !",
+            "HEY TOUT LE MONDE ! Une Lootbox vient d'apparaître dans ce salon !",
             "WOAH ! Une Lootbox ! Vite, il faut la prendre !",
             "Ah ! On dirait qu'il y a une Lootbox par ici !",
             "Désolé de vous interrompre... Mais quelqu'un a remarqué la Lootbox plantée là ?",
             "Incroyable ! Regardez ce que j'ai trouvé !",
             ""
         ],
-        "duplicate": "",
+        "duplicate": "DOUBLE",
         "lootPick": "␣Vous avez tous **__20 Secondes__** pour la prendre! Ecrivez `{{prefix}}pick` pour avoir une chance de l'avoir!",
         "goesTo": "Le temps est écoulé! Voyons qui a gagné cette Lootbox...\n**Cette Lootbox va être mis en jeu entre:**",
         "congrats": "Bravo ! Cette Lootbox a été rajoutée à ton **inventaire**. Tu peux l'ouvrir via la commande `{{prefix}}lootbox`.",
@@ -814,7 +814,7 @@
         "rerollRemain_new": "",
         "rerollRemain_new_plural": "",
         "hasDupes": "",
-        "allItemsAdded": ""
+        "allItemsAdded": "Tous les objets ont été ajoutés à ton inventaire !"
     },
     "eastereggs": {
         "konodioda": "Tu pensais que c'était Pollux, **mais c'était moi, DIO**!",
