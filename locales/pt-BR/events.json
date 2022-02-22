@@ -101,7 +101,7 @@
   "halloween17": {
     "treat": "***Doces ou Travessuras!*** Você juntou **{{qtd}}** Balinhas deste Servidor!",
     "treatRefresh": "Nananão, você já juntou suas Balinhas. Xô!\nVolta aqui em **{{remaining}}**",
-    "current_event": "",
+    "current_event": "Ei~ Você sabia que está rolando um **Evento de halloween** global? :jack_o_lantern:\nNeste evento, você pode conseguir algumas coisas maneiras e __exclusive__ para seu cartão de `p!profile`!\nDisponível apenas enquanto durar este evento, que acontece até **5 de novembro**\nMais informações em <http://pollux.gg/events/haloween> *(página em inglês)*\n*Contate o dono do servidor para checar se o servidor está participando do evento*",
     "newAccOut": ":warning: Desculpa, docinho... Contas novas não podem participar. Mas do próximo evento você participa, tá bom? :heart:",
     "nextThis": "Você pode vir aqui de novo pedir doces em:",
     "candiesCheck": "Você juntou **{{amt}}** Balinhas até agora. Continue batendo de servidor em servidor para obter mais!",
@@ -157,7 +157,7 @@
     "egghuntfail": "*... mas não encontrou necas de pitibiriba.*",
     "egghuntsuccess": "Oba! Tem um ovo aqui! Vejamos...",
     "egghuntsuccess2": "{{rarity_emoji}} {{user}} encontrou um **Ovo {{rarity}}**!",
-    "egghuntsuccess3": "",
+    "egghuntsuccess3": "Você tem um total de **{{X}}** ovos com você.\n**{{Y}}** deles são únicos.\n\nMais informações em: [Evento de páscoa de 2018 da Pollux](https://pollux.gg/events/easter2018)",
     "delaytrade": "Calma lá, jovem! Você vai poder trocar Ovos de novo dentro de {{remaining}} ",
     "wanttrade": "{{user}} quer trocar **{{tradingEgg}}** com você.",
     "wanttrade2": "*Para aceitar, digite `accept` seguido do ID de um dos Ovos que mandará de volta.*\n\nEx.: `accept C1` para dar um Ovo [**C1**] em troca por este Ovo [**{{eggcode}}**]",
