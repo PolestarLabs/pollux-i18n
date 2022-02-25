@@ -31,7 +31,7 @@
         "victor_tokai": "",
         "victor": "",
         "victor_gambit": "",
-        "gambit": "",
+        "gambit": "<@{{player.id}}> **Gagnant du Pari : ** Essaie une dernière fois pour un prix de 150 % ?",
         "gambit_prompt": "",
         "gambit_pre": "",
         "gambit_anytime": "",
