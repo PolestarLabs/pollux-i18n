@@ -19,7 +19,7 @@
     },
     "complete_ring_sapphire": {
         "name": "Bague de Saphir Luxueux",
-        "description": "La première étape vers l'engagement est d'offrir un bijou rare pour votre amour - félicitations! "
+        "description": "La première étape vers l'engagement est d'offrir une gemme rare à ta moitié - félicitations ! "
     },
     "complete_ring_stardust": {
         "name": "Bague de Poudre d'étoile Opulente",
@@ -31,19 +31,19 @@
     },
     "cosmo_gem_C": {
         "name": "Gemme Cosmo Ordinaire",
-        "description": "Eh bien, au moins que ça brille."
+        "description": "Eh ben, au moins ça brille."
     },
     "cosmo_gem_R": {
         "name": "Gemme Cosmo rare",
-        "description": "Oh? Un peu cher, n'est-ce pas?"
+        "description": "Oh ? C'est un peu cher, non ?"
     },
     "cosmo_gem_SR": {
         "name": "Gemme Cosmo rare",
-        "description": "« Woah, c'est une petite gemme spéciale que t'as trouvé. Combien veux-tu pour ça? Six rubines? Huit? »"
+        "description": "Woah, c'est une petite gemme spéciale que t'as trouvé. Combien tu en demandes ? Six rubines ? Huit ?"
     },
     "cosmo_gem_U": {
         "name": "Gemme Cosmo péculière",
-        "description": "Voyons, c'est mieux qu'une gemme commune."
+        "description": "Bon, j'imagine que c'est mieux qu'une gemme commune."
     },
     "cosmo_gem_UR": {
         "name": "Gemme Cosmo ultra rare",
