@@ -6,7 +6,7 @@
         "coinVictory": "Bien joué! C'est {{result}}! Tu gagnes **{{prize}}** Rubines {{emoji}}",
         "coinDefeat": "Dommage, c'est {{result}}! Tu as perdu...",
         "dailyGet": "{{emoji}} Tu as reçu 100 Rubines comme bonus quotidien !",
-        "dailyNope": "{{emoji}} Hop! Hop! Hop! Tu as déjà eu ton bonus quotidien! Le prochain étant dans: **{{remaining}}**",
+        "dailyNope": "{{emoji}} Hop ! Hop ! Hop ! Tu as déjà eu ton bonus quotidien ! Le prochain est dans : **{{remaining}}**",
         "dailyStreak": "{{emoji}} Et voici 500 Rubines de plus pour avoir collecté ton bonus 10 jours d'affilée! Yay!\n",
         "noFundsGeneric": "Pas assez de Rubines",
         "giveGoods": "{{author}} vient de donner **{{donate}}** Rubines à **{{target}}** !",
@@ -43,7 +43,7 @@
         "dailyStreakSapphs": "{{emoji}} **+1 Saphir** pour avoir collectionné 250 jours de suite!"
     },
     "forFun": {
-        "saltLVL": "Le niveau de sel à {{target}} est de **{{amount}}%** {{emoji}} ",
+        "saltLVL": "Le niveau de sel de {{target}} est de **{{amount}}%** {{emoji}}",
         "booru404": "Oups, je n'ai rien pu trouver avec ces mots-clés. Essayes-en d'autres, mon chou!",
         "nsfw404": "Mec, ton porno est tellement bizarre que je l'ai trouvé nulle part. Essaye un truc moins chelou.",
         "nsfwNope": ":no_entry_sign: Les commandes NSFW ne sont pas autorisées dans ce salon mon chou! Demande la permission aux Admins!",
@@ -782,7 +782,7 @@
         "egghuntsuccess": "",
         "egghuntsuccess2": "",
         "egghuntsuccess3": "T'as un total de **{{X}}** œufs avec toi.\n**{{Y}}** d'entre eux sont uniques.\n\nPlus d'infos sur : [Pollux Easter Event 2018] (https://pollux.gg/events/easter2018)",
-        "delaytrade": "Patience! Tu peux échanger plus d'œufs en {{remaining}}",
+        "delaytrade": "Patience ! Tu peux échanger plus d'œufs dans {{remaining}}",
         "wanttrade": "",
         "wanttrade2": "",
         "eggtradetitle": "",
